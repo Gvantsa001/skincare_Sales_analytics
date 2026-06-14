@@ -1,0 +1,51 @@
+rank_type,product_id,product_name,category,total_sales,units_sold,popularity_score
+Top 25,P0179,Cloud CoQ10 Mist,Anti-Aging Products,2102326.56,21548,100.00
+Top 25,P0267,Fresh Rose Repair,Toners,281844.81,20012,62.28
+Top 25,P0258,Lunar Squalane Complex,Moisturizers,571097.11,17400,61.61
+Top 25,P0274,Renew Niacinamide Lotion,Serums,959166.72,13820,57.20
+Top 25,P0027,Dew Niacinamide Elixir,Sunscreens,560526.39,13833,48.89
+Top 25,P0253,Velvet Hyaluronic Veil,Serums,710240.73,11961,47.63
+Top 25,P0125,Dew Peptides Shield,Moisturizers,286821.37,13625,45.94
+Top 25,P0049,Radiant Peptides Treatment,Eye Creams,603754.42,10564,41.80
+Top 25,P0059,Calm Squalane Mist,Moisturizers,332042.95,11119,38.79
+Top 25,P0038,Velvet Green Ritual,Cleansers,218613.10,11899,38.15
+Top 25,P0252,Hydra Kaolin Shield,Face Masks,287825.62,9256,32.28
+Top 25,P0020,Fresh Salicylic Elixir,Acne Treatments,381731.07,8242,31.17
+Top 25,P0015,Clear Vitamin Shield,Sunscreens,347837.57,8526,30.30
+Top 25,P0227,Glow Green Elixir,Cleansers,191944.27,8890,28.98
+Top 25,P0003,Glow Titanium Repair,Sunscreens,263065.09,6662,23.56
+Top 25,P0233,Pure Shea Elixir,Moisturizers,127429.78,5398,18.70
+Top 25,P0054,Pure Ceramides Ritual,Cleansers,156587.73,5383,18.09
+Top 25,P0121,Glow Vitamin Shield,Serums,205558.16,3217,13.20
+Top 25,P0208,Hydra Hyaluronic Gel,Serums,184193.52,3333,13.00
+Top 25,P0113,Pure Niacinamide Shield,Sunscreens,148323.97,3519,12.77
+Top 25,P0001,Clear Niacinamide Essence,Serums,167539.93,3020,11.80
+Top 25,P0231,Radiant Rice Complex,Cleansers,97577.06,3445,11.60
+Top 25,P0124,Clear Avobenzone Elixir,Sunscreens,114845.86,2505,9.22
+Top 25,P0287,Calm PHA Treatment,Toners,65709.16,2699,8.23
+Top 25,P0144,Renew Hyaluronic Mist,Moisturizers,117573.27,2012,8.14
+Long Tail 25,P0075,Calm Niacinamide Drops,Serums,94.35,3,0.01
+Long Tail 25,P0114,Clear Vitamin Essence,Sunscreens,119.94,3,0.01
+Long Tail 25,P0011,Pure Avobenzone Treatment,Sunscreens,351.46,8,0.03
+Long Tail 25,P0129,Renew Rice Essence,Cleansers,253.48,11,0.03
+Long Tail 25,P0193,Fresh Vitamin Essence,Serums,465.08,6,0.03
+Long Tail 25,P0139,Velvet Retinol Complex,Anti-Aging Products,394.22,11,0.04
+Long Tail 25,P0126,Pure Niacinamide Repair,Sunscreens,557.47,14,0.05
+Long Tail 25,P0169,Clear Retinol Shield,Anti-Aging Products,903.54,15,0.05
+Long Tail 25,P0280,Cloud Honey Ritual,Face Masks,956.56,18,0.05
+Long Tail 25,P0103,Fresh Bakuchiol Veil,Anti-Aging Products,1404.75,15,0.06
+Long Tail 25,P0203,Pure Bakuchiol Repair,Anti-Aging Products,1007.52,14,0.06
+Long Tail 25,P0288,Glow Niacinamide Treatment,Sunscreens,774.30,19,0.06
+Long Tail 25,P0031,Lunar Witch Gel,Toners,426.76,27,0.07
+Long Tail 25,P0065,Hydra Kaolin Essence,Face Masks,442.06,22,0.07
+Long Tail 25,P0091,Dew CoQ10 Essence,Anti-Aging Products,1600.24,15,0.07
+Long Tail 25,P0109,Velvet Niacinamide Mist,Serums,720.51,25,0.07
+Long Tail 25,P0224,Radiant CoQ10 Repair,Anti-Aging Products,1856.13,15,0.07
+Long Tail 25,P0229,Hydra Caffeine Lotion,Eye Creams,1002.39,21,0.07
+Long Tail 25,P0237,Pure Vitamin Gel,Eye Creams,627.76,23,0.07
+Long Tail 25,P0063,Cloud CoQ10 Gel,Anti-Aging Products,2113.88,23,0.09
+Long Tail 25,P0167,Pure Peptides Treatment,Eye Creams,1848.22,25,0.09
+Long Tail 25,P0182,Velvet Retinol Shield,Anti-Aging Products,1998.64,25,0.09
+Long Tail 25,P0197,Velvet Rice Drops,Cleansers,735.40,34,0.10
+Long Tail 25,P0092,Fresh Vitamin Drops,Serums,2334.34,31,0.11
+Long Tail 25,P0148,Calm Centella Ritual,Face Masks,1308.40,38,0.11

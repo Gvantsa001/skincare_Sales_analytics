@@ -1,0 +1,301 @@
+product_id,product_name,brand,category,concern,skin_type,key_ingredient,size,mrp,cost_price,stock_qty,launch_date
+P0001,Clear Niacinamide Essence,Luma Leaf,Serums,Texture,Normal,Alpha Arbutin,50 ml,59.78,26.28,20,2022-06-26
+P0002,Hydra Hyaluronic Elixir,Terra Dew,Moisturizers,Dehydration,Normal,Hyaluronic Acid,100 ml,23.13,11.93,1210,2022-01-29
+P0003,Glow Titanium Repair,Juniper Lab,Sunscreens,Tinted SPF,All,Zinc Oxide,100 ml,42.70,20.70,2310,2023-01-12
+P0004,Calm PHA Ritual,Pure Mesa,Toners,Texture,All,Rice Ferment,200 ml,35.96,17.01,620,2024-04-06
+P0005,Velvet Salicylic Mist,Halo Harbor,Acne Treatments,Acne,Combination,Salicylic Acid,15 ml,46.73,19.05,599,2024-11-22
+P0006,Renew Green Lotion,Velvet Aloe,Cleansers,Sensitive skin,Normal,Rice Water,200 ml,17.93,6.94,453,2022-12-11
+P0007,Lunar Niacinamide Ritual,Terra Dew,Serums,Dark spots,Normal,Alpha Arbutin,30 ml,48.02,17.18,371,2025-08-27
+P0008,Clear Copper Mist,DermaBloom,Serums,Dullness,Combination,Copper Peptides,50 ml,98.84,49.12,1074,2023-05-21
+P0009,Cloud Vitamin Ritual,Pure Mesa,Eye Creams,Firming,All,Peptides,30 ml,22.23,10.61,970,2023-03-24
+P0010,Clear Zinc Drops,Luma Leaf,Sunscreens,Daily SPF,All,Avobenzone,100 ml,43.08,18.43,189,2025-01-24
+P0011,Pure Avobenzone Treatment,Pure Mesa,Sunscreens,Daily SPF,All,Titanium Dioxide,75 ml,45.35,15.47,803,2025-10-20
+P0012,Dew Vitamin Lotion,Coast & Glow,Serums,Dark spots,All,Vitamin C,30 ml,27.27,10.38,232,2023-01-07
+P0013,Hydra Vitamin Elixir,Sunlit Science,Serums,Dullness,Dry,Copper Peptides,30 ml,110.53,44.64,589,2023-06-04
+P0014,Cloud Salicylic Elixir,Luma Leaf,Acne Treatments,Blemishes,Sensitive,Sulfur,50 ml,28.94,10.75,569,2025-07-05
+P0015,Clear Vitamin Shield,Pure Mesa,Sunscreens,Blue light protection,Oily,Vitamin E,100 ml,44.14,23.49,2736,2023-08-23
+P0016,Cloud Bakuchiol Mist,Velvet Aloe,Anti-Aging Products,Wrinkles,Sensitive,Bakuchiol,30 ml,109.33,55.52,910,2023-07-28
+P0017,Cloud Niacinamide Elixir,Halo Harbor,Serums,Dullness,Combination,Copper Peptides,30 ml,55.67,27.36,705,2021-06-24
+P0018,Glow Honey Veil,Juniper Lab,Face Masks,Hydration,Normal,Kaolin Clay,50 ml,46.38,25.43,570,2022-03-02
+P0019,Dew Salicylic Treatment,Velvet Aloe,Cleansers,Sensitive skin,All,Green Tea,200 ml,25.69,11.82,1029,2023-08-25
+P0020,Fresh Salicylic Elixir,Terra Dew,Acne Treatments,Redness,Combination,Benzoyl Peroxide,15 ml,48.43,25.39,2086,2023-01-21
+P0021,Dew Copper Drops,Luma Leaf,Serums,Brightening,Dry,Alpha Arbutin,30 ml,93.98,40.26,782,2024-11-23
+P0022,Radiant Rice Mist,Luma Leaf,Toners,Texture,Dry,PHA,150 ml,15.77,7.52,707,2021-05-12
+P0023,Pure CoQ10 Veil,Halo Harbor,Anti-Aging Products,Elasticity,All,Peptides,30 ml,58.03,20.62,486,2022-05-02
+P0024,Radiant Avobenzone Essence,Golden State Skin,Sunscreens,Tinted SPF,Dry,Niacinamide,75 ml,24.80,10.27,678,2023-12-12
+P0025,Hydra Hyaluronic Drops,DermaBloom,Moisturizers,Dryness,Combination,Hyaluronic Acid,75 ml,41.44,15.63,896,2023-09-06
+P0026,Hydra Benzoyl Essence,Coast & Glow,Acne Treatments,Clogged pores,Normal,Azelaic Acid,15 ml,39.87,16.03,903,2023-10-28
+P0027,Dew Niacinamide Elixir,Sierra Skin Co,Sunscreens,UV protection,Normal,Titanium Dioxide,100 ml,43.75,22.68,2256,2022-07-03
+P0028,Radiant Ceramides Ritual,Pacific Ritual,Cleansers,Sensitive skin,All,Salicylic Acid,200 ml,35.06,17.14,1049,2025-09-05
+P0029,Renew Benzoyl Drops,Halo Harbor,Acne Treatments,Acne,All,Salicylic Acid,30 ml,26.81,14.70,883,2024-06-06
+P0030,Clear Salicylic Veil,Sierra Skin Co,Cleansers,Daily cleansing,All,Ceramides,100 ml,12.73,4.78,862,2022-08-28
+P0031,Lunar Witch Gel,Halo Harbor,Toners,Texture,Normal,Rice Ferment,200 ml,17.73,7.22,780,2025-11-17
+P0032,Pure PHA Complex,Coast & Glow,Toners,Balancing,All,Rose Water,150 ml,28.54,10.49,1246,2023-04-02
+P0033,Velvet Witch Drops,DermaBloom,Toners,Texture,All,Rice Ferment,200 ml,28.68,11.66,561,2023-08-26
+P0034,Dew Centella Treatment,Pacific Ritual,Face Masks,Hydration,Combination,Oat Extract,75 ml,24.52,8.68,822,2021-06-06
+P0035,Glow Azelaic Lotion,Coast & Glow,Acne Treatments,Acne,All,Benzoyl Peroxide,15 ml,24.37,9.54,765,2022-08-09
+P0036,Dew Peptides Repair,Golden State Skin,Moisturizers,Dryness,Combination,Squalane,100 ml,46.72,24.74,701,2023-01-17
+P0037,Radiant Copper Elixir,Luma Leaf,Serums,Texture,All,Hyaluronic Acid,30 ml,35.76,16.69,327,2025-04-18
+P0038,Velvet Green Ritual,Juniper Lab,Cleansers,Daily cleansing,Combination,Green Tea,200 ml,19.26,6.68,2263,2023-02-02
+P0039,Pure Rice Complex,Sunlit Science,Toners,Balancing,All,Rose Water,200 ml,40.53,16.67,20,2022-02-19
+P0040,Clear Sulfur Lotion,Sunlit Science,Acne Treatments,Clogged pores,Oily,Benzoyl Peroxide,50 ml,48.33,18.95,354,2023-05-07
+P0041,Clear Growth Drops,Velvet Aloe,Anti-Aging Products,Fine lines,Combination,Bakuchiol,30 ml,95.86,36.54,619,2023-11-27
+P0042,Dew Peptides Essence,Pure Mesa,Eye Creams,Dark circles,Sensitive,Vitamin K,15 ml,80.24,43.59,658,2024-12-23
+P0043,Hydra Niacinamide Mist,Luma Leaf,Serums,Dullness,Combination,Hyaluronic Acid,30 ml,31.10,13.26,232,2023-09-15
+P0044,Pure Aloe Essence,Terra Dew,Cleansers,Daily cleansing,Combination,Rice Water,150 ml,26.58,13.40,886,2025-03-19
+P0045,Velvet Salicylic Ritual,Coast & Glow,Acne Treatments,Clogged pores,Combination,Benzoyl Peroxide,50 ml,24.69,12.99,610,2021-08-05
+P0046,Pure Shea Ritual,Sierra Skin Co,Moisturizers,Dehydration,All,Squalane,50 ml,30.76,14.53,222,2021-05-02
+P0047,Pure Peptides Ritual,DermaBloom,Moisturizers,Dryness,Combination,Squalane,50 ml,69.31,30.19,945,2022-02-10
+P0048,Hydra Ceramides Lotion,Halo Harbor,Moisturizers,Dryness,All,Ceramides,75 ml,29.83,15.26,765,2021-12-04
+P0049,Radiant Peptides Treatment,Halo Harbor,Eye Creams,Dark circles,Sensitive,Peptides,15 ml,61.38,33.94,2018,2024-03-07
+P0050,Renew Squalane Shield,Coast & Glow,Eye Creams,Fine lines,Normal,Caffeine,15 ml,24.16,12.38,584,2024-11-10
+P0051,Velvet PHA Ritual,DermaBloom,Toners,Texture,All,Centella,200 ml,16.11,7.65,149,2023-05-31
+P0052,Dew Retinol Treatment,Sunlit Science,Anti-Aging Products,Elasticity,Sensitive,Retinol,30 ml,39.96,15.57,127,2021-08-10
+P0053,Clear Alpha Mist,Juniper Lab,Serums,Dark spots,All,Niacinamide,30 ml,40.80,14.16,1014,2021-05-28
+P0054,Pure Ceramides Ritual,Sunlit Science,Cleansers,Pore care,Combination,Rice Water,200 ml,30.49,12.75,671,2021-07-05
+P0055,Fresh Retinol Gel,Velvet Aloe,Eye Creams,Dark circles,Oily,Caffeine,20 ml,40.55,16.93,579,2021-06-22
+P0056,Lunar Aloe Gel,Halo Harbor,Cleansers,Sensitive skin,All,Salicylic Acid,200 ml,18.20,6.30,271,2024-08-25
+P0057,Clear PHA Mist,Terra Dew,Toners,Balancing,Sensitive,PHA,150 ml,21.89,11.94,316,2021-05-29
+P0058,Glow Hyaluronic Treatment,Juniper Lab,Moisturizers,Dehydration,Sensitive,Peptides,100 ml,33.25,12.37,401,2021-04-27
+P0059,Calm Squalane Mist,Pure Mesa,Moisturizers,Dryness,Normal,Ceramides,75 ml,32.10,13.09,2489,2024-09-17
+P0060,Hydra Oat Elixir,DermaBloom,Face Masks,Glow,All,Kaolin Clay,100 ml,60.70,32.90,2030,2023-04-04
+P0061,Hydra Sulfur Repair,Terra Dew,Acne Treatments,Redness,Sensitive,Sulfur,15 ml,35.69,19.57,451,2025-05-16
+P0062,Fresh Alpha Essence,Juniper Lab,Serums,Dullness,All,Hyaluronic Acid,50 ml,116.63,61.95,408,2022-03-14
+P0063,Cloud CoQ10 Gel,Luma Leaf,Anti-Aging Products,Wrinkles,All,Peptides,50 ml,98.55,53.67,125,2025-02-15
+P0064,Hydra Bakuchiol Repair,DermaBloom,Anti-Aging Products,Fine lines,Sensitive,CoQ10,50 ml,79.97,29.79,520,2022-11-18
+P0065,Hydra Kaolin Essence,Sierra Skin Co,Face Masks,Glow,Combination,Honey,50 ml,24.60,11.57,873,2025-10-15
+P0066,Fresh Witch Shield,Halo Harbor,Toners,Hydration,Dry,Centella,150 ml,14.55,7.57,548,2023-06-14
+P0067,Radiant Aloe Veil,Golden State Skin,Cleansers,Daily cleansing,Combination,Rice Water,150 ml,24.46,13.25,1438,2025-01-17
+P0068,Hydra Green Lotion,Sierra Skin Co,Cleansers,Oil control,Combination,Green Tea,200 ml,26.88,9.25,594,2021-09-09
+P0069,Fresh Enzymes Shield,Terra Dew,Face Masks,Glow,Dry,Enzymes,75 ml,58.83,20.27,708,2022-05-02
+P0070,Hydra Avobenzone Complex,Velvet Aloe,Sunscreens,UV protection,Oily,Zinc Oxide,75 ml,45.76,18.80,166,2021-10-18
+P0071,Renew Peptides Gel,Pure Mesa,Moisturizers,Redness,Dry,Squalane,100 ml,23.45,8.77,1292,2021-10-05
+P0072,Glow Hyaluronic Gel,Juniper Lab,Moisturizers,Dehydration,Combination,Squalane,75 ml,52.04,23.24,1170,2023-02-02
+P0073,Hydra Ceramides Veil,Terra Dew,Moisturizers,Dehydration,Oily,Peptides,75 ml,31.07,11.76,117,2024-05-25
+P0074,Velvet PHA Treatment,Pure Mesa,Toners,Pore care,Sensitive,PHA,150 ml,15.95,6.44,764,2024-05-05
+P0075,Calm Niacinamide Drops,Sunlit Science,Serums,Texture,All,Hyaluronic Acid,50 ml,31.45,17.51,477,2025-12-23
+P0076,Cloud Vitamin Veil,DermaBloom,Serums,Hydration,All,Hyaluronic Acid,30 ml,65.90,26.06,695,2025-08-21
+P0077,Cloud Rice Elixir,Pacific Ritual,Toners,Texture,Dry,Rice Ferment,150 ml,18.21,8.82,1242,2025-01-24
+P0078,Calm Green Essence,Juniper Lab,Cleansers,Oil control,All,Aloe,200 ml,31.81,16.57,251,2022-05-27
+P0079,Cloud Avobenzone Treatment,Luma Leaf,Sunscreens,Daily SPF,Oily,Titanium Dioxide,50 ml,42.31,23.45,897,2023-12-26
+P0080,Glow Niacinamide Essence,Sierra Skin Co,Sunscreens,Tinted SPF,Combination,Avobenzone,100 ml,26.94,9.72,81,2021-05-18
+P0081,Radiant Ceramides Drops,Velvet Aloe,Cleansers,Sensitive skin,All,Green Tea,200 ml,16.15,6.66,416,2021-12-01
+P0082,Clear Squalane Treatment,Sierra Skin Co,Eye Creams,Firming,Normal,Retinol,30 ml,22.16,11.17,660,2021-12-14
+P0083,Glow Hyaluronic Treatment,Luma Leaf,Moisturizers,Barrier repair,Combination,Shea Butter,50 ml,23.39,9.34,244,2025-05-18
+P0084,Velvet Squalane Shield,Golden State Skin,Moisturizers,Redness,Normal,Hyaluronic Acid,75 ml,33.35,13.59,511,2022-11-08
+P0085,Lunar Hyaluronic Complex,Pacific Ritual,Moisturizers,Dryness,Normal,Peptides,50 ml,37.18,13.33,617,2021-04-30
+P0086,Radiant Azelaic Ritual,Sierra Skin Co,Acne Treatments,Acne,Combination,Sulfur,15 ml,32.73,14.16,776,2022-03-30
+P0087,Calm Honey Mist,Sunlit Science,Face Masks,Detox,Normal,Honey,75 ml,55.16,28.28,432,2024-07-14
+P0088,Calm CoQ10 Complex,Juniper Lab,Anti-Aging Products,Elasticity,Normal,Growth Factors,30 ml,40.45,15.12,630,2025-05-31
+P0089,Clear Centella Drops,Velvet Aloe,Toners,Hydration,Dry,PHA,200 ml,28.86,14.65,922,2022-03-10
+P0090,Renew Shea Shield,Sierra Skin Co,Moisturizers,Dehydration,Normal,Squalane,50 ml,58.21,20.67,698,2023-08-11
+P0091,Dew CoQ10 Essence,Golden State Skin,Anti-Aging Products,Fine lines,Combination,CoQ10,50 ml,120.68,63.41,213,2025-04-22
+P0092,Fresh Vitamin Drops,Luma Leaf,Serums,Texture,Oily,Niacinamide,30 ml,82.11,33.34,341,2025-07-12
+P0093,Renew Titanium Veil,Terra Dew,Sunscreens,Daily SPF,Sensitive,Vitamin E,100 ml,50.22,27.94,850,2023-05-16
+P0094,Renew Niacinamide Veil,Terra Dew,Serums,Texture,Dry,Niacinamide,30 ml,39.55,22.12,188,2024-03-11
+P0095,Dew PHA Essence,Velvet Aloe,Toners,Balancing,All,PHA,200 ml,16.43,6.27,573,2021-09-15
+P0096,Glow Centella Essence,Golden State Skin,Face Masks,Glow,All,Honey,50 ml,47.10,16.58,921,2021-09-20
+P0097,Dew Hyaluronic Gel,Sunlit Science,Moisturizers,Dehydration,All,Squalane,75 ml,69.39,37.73,558,2024-10-21
+P0098,Fresh Avobenzone Elixir,Pacific Ritual,Sunscreens,UV protection,Normal,Niacinamide,50 ml,33.97,18.89,948,2025-08-05
+P0099,Lunar Sulfur Veil,Juniper Lab,Acne Treatments,Clogged pores,Oily,Tea Tree,15 ml,43.74,20.58,561,2023-02-14
+P0100,Renew Copper Essence,Pacific Ritual,Serums,Brightening,All,Copper Peptides,30 ml,45.86,17.78,1964,2025-03-09
+P0101,Renew Green Lotion,Terra Dew,Cleansers,Sensitive skin,Dry,Salicylic Acid,200 ml,27.90,14.89,20,2022-02-08
+P0102,Cloud Caffeine Lotion,Coast & Glow,Eye Creams,Firming,Dry,Caffeine,15 ml,83.26,39.22,484,2024-12-03
+P0103,Fresh Bakuchiol Veil,Pacific Ritual,Anti-Aging Products,Firmness,Sensitive,CoQ10,30 ml,100.70,37.79,1147,2023-10-19
+P0104,Dew Copper Repair,Sierra Skin Co,Serums,Hydration,All,Niacinamide,50 ml,116.63,50.59,945,2022-05-31
+P0105,Dew Hyaluronic Mist,Coast & Glow,Serums,Texture,Combination,Niacinamide,50 ml,33.72,17.09,341,2024-07-31
+P0106,Velvet Green Veil,Juniper Lab,Cleansers,Oil control,Dry,Green Tea,200 ml,13.31,5.06,580,2024-09-25
+P0107,Radiant Retinol Ritual,Juniper Lab,Anti-Aging Products,Elasticity,Normal,Peptides,50 ml,42.57,17.29,772,2022-06-21
+P0108,Renew Avobenzone Elixir,Pacific Ritual,Sunscreens,UV protection,Dry,Vitamin E,50 ml,35.63,14.42,140,2025-05-08
+P0109,Velvet Niacinamide Mist,Terra Dew,Serums,Hydration,Sensitive,Hyaluronic Acid,50 ml,34.96,13.63,569,2025-09-26
+P0110,Velvet PHA Lotion,Velvet Aloe,Toners,Balancing,All,Rice Ferment,150 ml,29.14,15.39,342,2023-10-25
+P0111,Clear Copper Gel,Terra Dew,Serums,Brightening,Normal,Vitamin C,30 ml,102.15,35.63,854,2023-04-04
+P0112,Fresh Vitamin Veil,Pure Mesa,Serums,Dullness,All,Copper Peptides,50 ml,38.31,20.36,500,2025-05-02
+P0113,Pure Niacinamide Shield,DermaBloom,Sunscreens,Tinted SPF,All,Titanium Dioxide,100 ml,45.47,24.97,1933,2025-09-13
+P0114,Clear Vitamin Essence,Luma Leaf,Sunscreens,Daily SPF,All,Avobenzone,100 ml,41.36,22.35,1199,2025-11-03
+P0115,Renew Honey Shield,Pacific Ritual,Face Masks,Glow,Oily,Enzymes,100 ml,63.27,31.52,279,2024-10-07
+P0116,Cloud Titanium Complex,Sunlit Science,Sunscreens,Daily SPF,Oily,Vitamin E,75 ml,25.74,13.76,769,2023-05-23
+P0117,Radiant Kaolin Treatment,Golden State Skin,Face Masks,Glow,Dry,Centella,50 ml,37.57,17.59,640,2023-03-09
+P0118,Cloud Rice Mist,Halo Harbor,Cleansers,Daily cleansing,Dry,Ceramides,150 ml,32.31,14.81,540,2024-08-04
+P0119,Calm Rice Veil,Sunlit Science,Cleansers,Oil control,Sensitive,Green Tea,200 ml,12.10,4.32,856,2021-02-27
+P0120,Radiant Growth Treatment,Golden State Skin,Anti-Aging Products,Wrinkles,Sensitive,Bakuchiol,30 ml,118.27,44.54,359,2024-03-07
+P0121,Glow Vitamin Shield,Pacific Ritual,Serums,Dullness,All,Niacinamide,30 ml,68.84,25.88,713,2022-12-20
+P0122,Calm Benzoyl Essence,Halo Harbor,Acne Treatments,Blemishes,All,Tea Tree,15 ml,28.51,13.64,138,2024-06-19
+P0123,Cloud Hyaluronic Ritual,Halo Harbor,Moisturizers,Dryness,Sensitive,Peptides,75 ml,66.30,27.29,473,2024-02-05
+P0124,Clear Avobenzone Elixir,Terra Dew,Sunscreens,UV protection,Dry,Avobenzone,100 ml,49.58,17.02,924,2021-10-03
+P0125,Dew Peptides Shield,Juniper Lab,Moisturizers,Redness,Normal,Peptides,50 ml,22.61,9.40,2450,2021-05-08
+P0126,Pure Niacinamide Repair,Golden State Skin,Sunscreens,Tinted SPF,Normal,Titanium Dioxide,50 ml,42.17,14.62,337,2025-09-12
+P0127,Clear Alpha Gel,Velvet Aloe,Serums,Brightening,Dry,Alpha Arbutin,30 ml,57.73,29.68,826,2021-09-28
+P0128,Glow Peptides Veil,Sunlit Science,Anti-Aging Products,Wrinkles,Sensitive,Retinol,50 ml,88.61,33.05,1058,2021-03-15
+P0129,Renew Rice Essence,Halo Harbor,Cleansers,Pore care,All,Rice Water,150 ml,23.47,12.58,365,2025-12-17
+P0130,Fresh Peptides Gel,Golden State Skin,Moisturizers,Barrier repair,All,Shea Butter,50 ml,47.46,18.52,301,2025-09-02
+P0131,Cloud Benzoyl Veil,Halo Harbor,Acne Treatments,Clogged pores,All,Salicylic Acid,30 ml,32.92,11.39,710,2021-10-07
+P0132,Cloud Green Essence,Juniper Lab,Cleansers,Sensitive skin,Normal,Ceramides,100 ml,32.57,14.75,832,2022-10-11
+P0133,Fresh Titanium Complex,DermaBloom,Sunscreens,Blue light protection,Normal,Avobenzone,75 ml,37.83,18.66,860,2024-12-16
+P0134,Renew Shea Ritual,Juniper Lab,Moisturizers,Redness,Normal,Squalane,75 ml,56.87,25.46,660,2021-04-14
+P0135,Radiant Niacinamide Essence,Juniper Lab,Serums,Brightening,Dry,Niacinamide,50 ml,26.31,10.47,524,2025-07-09
+P0136,Hydra Ceramides Essence,DermaBloom,Moisturizers,Barrier repair,Dry,Squalane,75 ml,66.93,23.66,640,2021-04-30
+P0137,Cloud Kaolin Complex,Terra Dew,Face Masks,Oil control,Sensitive,Oat Extract,100 ml,16.02,6.98,421,2021-03-27
+P0138,Fresh PHA Shield,Sierra Skin Co,Toners,Pore care,All,Rice Ferment,150 ml,33.55,11.73,1326,2022-05-26
+P0139,Velvet Retinol Complex,Velvet Aloe,Anti-Aging Products,Firmness,All,Retinol,50 ml,42.71,16.57,679,2025-09-20
+P0140,Hydra Vitamin Veil,Halo Harbor,Sunscreens,Blue light protection,Normal,Zinc Oxide,100 ml,29.27,13.80,1036,2021-07-07
+P0141,Hydra Aloe Ritual,Halo Harbor,Cleansers,Daily cleansing,Combination,Green Tea,100 ml,13.41,5.31,904,2021-10-15
+P0142,Hydra Tea Treatment,Juniper Lab,Acne Treatments,Clogged pores,Sensitive,Salicylic Acid,15 ml,12.15,4.83,932,2022-09-01
+P0143,Radiant Rice Drops,Pure Mesa,Toners,Hydration,Normal,Rice Ferment,150 ml,30.40,14.84,247,2025-07-04
+P0144,Renew Hyaluronic Mist,Pure Mesa,Moisturizers,Dryness,All,Hyaluronic Acid,75 ml,62.61,26.05,865,2021-02-17
+P0145,Renew Ceramides Elixir,DermaBloom,Moisturizers,Redness,Sensitive,Ceramides,50 ml,45.85,21.04,334,2022-05-09
+P0146,Calm Ceramides Treatment,Sierra Skin Co,Moisturizers,Dehydration,Sensitive,Ceramides,50 ml,37.20,16.24,853,2021-04-20
+P0147,Pure Kaolin Gel,Pacific Ritual,Face Masks,Detox,Sensitive,Enzymes,100 ml,31.63,14.74,693,2021-02-01
+P0148,Calm Centella Ritual,Luma Leaf,Face Masks,Hydration,All,Enzymes,50 ml,37.75,20.13,645,2025-04-06
+P0149,Dew Vitamin Elixir,Juniper Lab,Serums,Hydration,Combination,Alpha Arbutin,30 ml,37.72,18.62,379,2024-06-22
+P0150,Lunar Growth Repair,Juniper Lab,Anti-Aging Products,Fine lines,All,Growth Factors,30 ml,111.65,45.31,20,2023-01-01
+P0151,Fresh Copper Essence,Sierra Skin Co,Serums,Brightening,Sensitive,Hyaluronic Acid,50 ml,66.26,29.13,807,2022-08-18
+P0152,Clear Shea Treatment,Sunlit Science,Moisturizers,Redness,Normal,Squalane,50 ml,54.83,20.61,909,2025-07-10
+P0153,Radiant Salicylic Complex,Halo Harbor,Acne Treatments,Acne,Oily,Benzoyl Peroxide,30 ml,26.62,9.49,393,2023-06-29
+P0154,Velvet Zinc Essence,Juniper Lab,Sunscreens,UV protection,Dry,Avobenzone,75 ml,24.69,10.85,486,2022-08-19
+P0155,Clear Rice Shield,Pure Mesa,Toners,Pore care,Oily,Witch Hazel,150 ml,33.14,16.97,505,2022-07-29
+P0156,Radiant Azelaic Repair,Coast & Glow,Acne Treatments,Clogged pores,Sensitive,Azelaic Acid,30 ml,49.20,18.62,702,2023-08-08
+P0157,Cloud Tea Complex,DermaBloom,Acne Treatments,Acne,Sensitive,Azelaic Acid,15 ml,14.17,6.09,548,2021-08-08
+P0158,Hydra Oat Veil,Velvet Aloe,Face Masks,Hydration,Combination,Oat Extract,75 ml,16.74,8.58,797,2024-09-02
+P0159,Calm Copper Gel,Velvet Aloe,Serums,Hydration,Normal,Vitamin C,30 ml,34.28,18.44,109,2024-05-19
+P0160,Velvet PHA Repair,Golden State Skin,Toners,Balancing,Combination,Centella,200 ml,18.48,6.45,816,2021-12-18
+P0161,Hydra Benzoyl Mist,Golden State Skin,Acne Treatments,Redness,Sensitive,Salicylic Acid,30 ml,43.49,23.49,20,2021-12-16
+P0162,Pure Enzymes Veil,DermaBloom,Face Masks,Hydration,All,Enzymes,75 ml,48.67,21.33,322,2021-07-16
+P0163,Renew Oat Mist,Luma Leaf,Face Masks,Oil control,Sensitive,Honey,50 ml,19.32,6.63,191,2022-11-20
+P0164,Velvet Titanium Veil,Juniper Lab,Sunscreens,Blue light protection,Normal,Avobenzone,75 ml,37.42,17.33,521,2025-03-26
+P0165,Calm Ceramides Repair,Sunlit Science,Cleansers,Sensitive skin,Sensitive,Salicylic Acid,200 ml,13.58,7.54,222,2023-02-16
+P0166,Dew Sulfur Complex,Sierra Skin Co,Acne Treatments,Blemishes,Normal,Sulfur,15 ml,33.89,12.44,688,2021-04-30
+P0167,Pure Peptides Treatment,Terra Dew,Eye Creams,Dark circles,All,Retinol,30 ml,78.95,40.07,945,2024-07-24
+P0168,Cloud Vitamin Complex,Sunlit Science,Serums,Hydration,Dry,Vitamin C,30 ml,71.07,28.19,2115,2025-08-21
+P0169,Clear Retinol Shield,Halo Harbor,Anti-Aging Products,Elasticity,All,CoQ10,30 ml,63.72,28.68,1288,2024-12-12
+P0170,Radiant Aloe Veil,Terra Dew,Cleansers,Daily cleansing,Sensitive,Green Tea,100 ml,25.00,10.33,671,2023-07-03
+P0171,Clear Ceramides Mist,Juniper Lab,Moisturizers,Dryness,Combination,Peptides,75 ml,35.34,17.35,553,2023-02-20
+P0172,Velvet Vitamin Treatment,Pacific Ritual,Sunscreens,UV protection,All,Vitamin E,50 ml,36.64,13.02,1029,2021-04-15
+P0173,Hydra Copper Shield,Sierra Skin Co,Serums,Hydration,Sensitive,Alpha Arbutin,50 ml,117.24,64.44,719,2021-10-13
+P0174,Velvet Hyaluronic Ritual,Sierra Skin Co,Moisturizers,Barrier repair,Sensitive,Squalane,50 ml,66.49,36.71,690,2023-12-29
+P0175,Pure Kaolin Gel,DermaBloom,Face Masks,Detox,Dry,Honey,75 ml,57.65,28.41,597,2024-06-29
+P0176,Velvet Rice Elixir,Terra Dew,Cleansers,Oil control,Normal,Ceramides,150 ml,12.96,5.99,938,2021-11-18
+P0177,Cloud Alpha Shield,Sunlit Science,Serums,Hydration,Sensitive,Hyaluronic Acid,50 ml,56.71,21.21,1102,2023-05-20
+P0178,Cloud Ceramides Shield,DermaBloom,Cleansers,Sensitive skin,All,Rice Water,150 ml,19.70,8.75,355,2024-03-29
+P0179,Cloud CoQ10 Mist,Coast & Glow,Anti-Aging Products,Fine lines,Normal,CoQ10,30 ml,107.28,52.68,2477,2023-08-18
+P0180,Pure Witch Complex,Pure Mesa,Toners,Pore care,Sensitive,PHA,200 ml,29.51,12.51,570,2022-09-13
+P0181,Calm Peptides Ritual,DermaBloom,Eye Creams,Dark circles,Dry,Vitamin K,30 ml,72.32,30.23,535,2022-10-28
+P0182,Velvet Retinol Shield,Velvet Aloe,Anti-Aging Products,Fine lines,All,Peptides,50 ml,94.50,51.83,761,2024-11-17
+P0183,Lunar Caffeine Elixir,Halo Harbor,Eye Creams,Fine lines,All,Squalane,20 ml,73.50,32.13,661,2025-06-22
+P0184,Clear Vitamin Treatment,Sunlit Science,Eye Creams,Fine lines,Oily,Squalane,15 ml,57.85,29.94,777,2023-09-14
+P0185,Renew Hyaluronic Gel,Terra Dew,Serums,Dullness,All,Hyaluronic Acid,30 ml,102.08,52.72,561,2023-02-03
+P0186,Cloud Avobenzone Gel,Luma Leaf,Sunscreens,Tinted SPF,Sensitive,Titanium Dioxide,75 ml,49.77,25.05,243,2024-04-10
+P0187,Renew Oat Drops,Halo Harbor,Face Masks,Oil control,Oily,Honey,100 ml,28.48,11.79,1225,2024-09-30
+P0188,Radiant Rice Ritual,Halo Harbor,Cleansers,Oil control,Sensitive,Rice Water,150 ml,12.21,5.11,584,2025-07-01
+P0189,Glow Squalane Elixir,Pure Mesa,Moisturizers,Dehydration,Combination,Squalane,75 ml,24.13,11.51,62,2025-05-20
+P0190,Glow Alpha Ritual,Pacific Ritual,Serums,Texture,Oily,Vitamin C,50 ml,42.62,17.90,893,2025-08-01
+P0191,Fresh Copper Veil,Sunlit Science,Serums,Texture,All,Copper Peptides,50 ml,49.92,23.12,689,2024-10-06
+P0192,Cloud Caffeine Elixir,Sierra Skin Co,Eye Creams,Firming,Oily,Squalane,20 ml,27.23,10.06,365,2023-05-17
+P0193,Fresh Vitamin Essence,DermaBloom,Serums,Dark spots,Dry,Hyaluronic Acid,30 ml,94.53,52.86,237,2025-12-08
+P0194,Dew Green Veil,Velvet Aloe,Cleansers,Pore care,Normal,Salicylic Acid,150 ml,18.72,8.99,620,2024-07-12
+P0195,Fresh Ceramides Veil,Golden State Skin,Cleansers,Daily cleansing,All,Rice Water,200 ml,15.40,7.38,468,2025-04-18
+P0196,Lunar Alpha Essence,Luma Leaf,Serums,Dark spots,Sensitive,Copper Peptides,30 ml,55.09,23.61,720,2023-07-29
+P0197,Velvet Rice Drops,Halo Harbor,Cleansers,Oil control,Oily,Rice Water,100 ml,25.21,9.10,917,2025-11-06
+P0198,Velvet Shea Drops,Juniper Lab,Moisturizers,Barrier repair,Oily,Shea Butter,100 ml,63.51,27.90,1361,2023-09-09
+P0199,Fresh Hyaluronic Lotion,Halo Harbor,Serums,Dark spots,Oily,Hyaluronic Acid,50 ml,105.26,38.31,613,2023-10-09
+P0200,Velvet Green Ritual,Velvet Aloe,Cleansers,Sensitive skin,Combination,Ceramides,200 ml,16.73,6.96,489,2025-03-08
+P0201,Renew Niacinamide Gel,Pure Mesa,Serums,Brightening,Normal,Niacinamide,50 ml,66.64,29.09,504,2024-09-22
+P0202,Glow Zinc Complex,Velvet Aloe,Sunscreens,Daily SPF,Dry,Niacinamide,50 ml,40.27,14.09,403,2024-08-29
+P0203,Pure Bakuchiol Repair,Golden State Skin,Anti-Aging Products,Firmness,Sensitive,CoQ10,30 ml,78.96,38.99,763,2025-03-17
+P0204,Radiant Ceramides Ritual,Sunlit Science,Moisturizers,Redness,All,Peptides,50 ml,35.72,14.83,1285,2021-07-21
+P0205,Pure Niacinamide Essence,Pacific Ritual,Serums,Dark spots,Combination,Copper Peptides,50 ml,51.76,26.55,2441,2025-09-17
+P0206,Fresh Squalane Veil,Terra Dew,Moisturizers,Barrier repair,Normal,Peptides,75 ml,35.15,19.41,1169,2023-01-02
+P0207,Cloud Hyaluronic Complex,Pure Mesa,Moisturizers,Dryness,All,Hyaluronic Acid,50 ml,59.51,27.64,996,2024-10-15
+P0208,Hydra Hyaluronic Gel,DermaBloom,Serums,Brightening,Dry,Vitamin C,30 ml,60.53,23.44,567,2023-09-25
+P0209,Hydra Hyaluronic Ritual,Halo Harbor,Moisturizers,Dryness,Oily,Shea Butter,50 ml,57.39,23.98,846,2024-04-14
+P0210,Glow CoQ10 Complex,Juniper Lab,Anti-Aging Products,Elasticity,Sensitive,Peptides,30 ml,115.68,58.44,307,2021-05-19
+P0211,Dew Peptides Ritual,Luma Leaf,Anti-Aging Products,Firmness,Sensitive,CoQ10,30 ml,129.14,49.51,1182,2022-02-21
+P0212,Fresh Kaolin Shield,Halo Harbor,Face Masks,Glow,All,Honey,100 ml,27.35,13.98,623,2022-05-09
+P0213,Radiant Centella Gel,Terra Dew,Toners,Pore care,Combination,PHA,200 ml,20.72,10.76,284,2021-04-16
+P0214,Fresh PHA Elixir,DermaBloom,Toners,Pore care,Normal,Rose Water,150 ml,25.49,13.08,913,2024-02-22
+P0215,Glow Peptides Mist,Luma Leaf,Moisturizers,Barrier repair,Combination,Hyaluronic Acid,100 ml,22.05,10.84,583,2021-04-30
+P0216,Clear CoQ10 Mist,Velvet Aloe,Anti-Aging Products,Elasticity,Dry,Retinol,30 ml,136.11,76.18,698,2024-01-07
+P0217,Renew Vitamin Essence,Juniper Lab,Serums,Hydration,Combination,Niacinamide,50 ml,115.75,46.84,163,2025-01-28
+P0218,Cloud Vitamin Gel,DermaBloom,Serums,Dullness,Oily,Alpha Arbutin,30 ml,77.77,35.40,286,2023-04-04
+P0219,Calm Titanium Essence,Pure Mesa,Sunscreens,Daily SPF,Normal,Zinc Oxide,50 ml,20.37,10.86,767,2025-02-12
+P0220,Fresh Centella Drops,Sunlit Science,Face Masks,Hydration,All,Kaolin Clay,100 ml,36.56,20.34,371,2023-03-27
+P0221,Fresh Titanium Treatment,Sierra Skin Co,Sunscreens,Tinted SPF,Dry,Avobenzone,50 ml,31.07,10.68,1179,2024-05-09
+P0222,Radiant Vitamin Lotion,DermaBloom,Sunscreens,Daily SPF,All,Avobenzone,100 ml,22.02,9.80,477,2021-03-15
+P0223,Hydra Ceramides Essence,Terra Dew,Cleansers,Pore care,Normal,Rice Water,100 ml,14.30,6.47,527,2025-11-07
+P0224,Radiant CoQ10 Repair,Coast & Glow,Anti-Aging Products,Firmness,Combination,Peptides,50 ml,134.21,70.54,617,2024-09-19
+P0225,Lunar Retinol Repair,Juniper Lab,Eye Creams,Dark circles,All,Vitamin K,20 ml,66.88,31.15,152,2023-10-31
+P0226,Renew Bakuchiol Repair,DermaBloom,Anti-Aging Products,Elasticity,Normal,Peptides,30 ml,50.66,24.67,294,2021-09-12
+P0227,Glow Green Elixir,Coast & Glow,Cleansers,Pore care,Normal,Rice Water,150 ml,22.63,11.55,2223,2021-04-05
+P0228,Dew Green Veil,Sierra Skin Co,Cleansers,Sensitive skin,Normal,Ceramides,100 ml,15.00,5.48,740,2024-08-12
+P0229,Hydra Caffeine Lotion,Velvet Aloe,Eye Creams,Dark circles,All,Peptides,15 ml,53.32,21.44,818,2025-06-08
+P0230,Dew Alpha Drops,Pacific Ritual,Serums,Hydration,Sensitive,Copper Peptides,30 ml,117.85,55.95,423,2021-12-30
+P0231,Radiant Rice Complex,Luma Leaf,Cleansers,Pore care,All,Rice Water,150 ml,29.83,14.67,895,2023-08-01
+P0232,Fresh Salicylic Repair,Golden State Skin,Acne Treatments,Blemishes,Normal,Azelaic Acid,15 ml,18.71,7.33,1265,2022-07-12
+P0233,Pure Shea Elixir,Sierra Skin Co,Moisturizers,Dehydration,All,Peptides,100 ml,25.30,12.45,2419,2021-02-05
+P0234,Lunar Salicylic Veil,DermaBloom,Acne Treatments,Blemishes,Sensitive,Salicylic Acid,50 ml,34.16,14.43,627,2022-06-07
+P0235,Clear Honey Shield,DermaBloom,Face Masks,Oil control,All,Enzymes,75 ml,29.50,13.86,457,2024-02-23
+P0236,Hydra Ceramides Repair,Juniper Lab,Moisturizers,Barrier repair,Dry,Shea Butter,75 ml,43.07,18.94,589,2025-10-25
+P0237,Pure Vitamin Gel,DermaBloom,Eye Creams,Firming,Sensitive,Peptides,30 ml,29.78,15.79,1362,2025-01-07
+P0238,Hydra Niacinamide Veil,Velvet Aloe,Serums,Dark spots,Sensitive,Hyaluronic Acid,30 ml,27.96,10.40,89,2021-01-07
+P0239,Lunar Squalane Elixir,Velvet Aloe,Moisturizers,Barrier repair,All,Hyaluronic Acid,100 ml,45.74,25.53,712,2024-07-14
+P0240,Calm Vitamin Treatment,Sunlit Science,Eye Creams,Dark circles,Dry,Retinol,30 ml,65.53,36.49,391,2022-04-02
+P0241,Cloud Titanium Veil,Pure Mesa,Sunscreens,Blue light protection,All,Niacinamide,50 ml,21.12,8.78,961,2024-01-19
+P0242,Dew Kaolin Gel,Velvet Aloe,Face Masks,Oil control,Sensitive,Centella,100 ml,44.67,22.77,928,2023-07-26
+P0243,Lunar Bakuchiol Lotion,Luma Leaf,Anti-Aging Products,Wrinkles,Dry,Bakuchiol,50 ml,86.25,38.84,948,2022-01-26
+P0244,Velvet Titanium Ritual,Pacific Ritual,Sunscreens,UV protection,Combination,Niacinamide,75 ml,33.10,14.52,718,2021-11-27
+P0245,Cloud Avobenzone Complex,Luma Leaf,Sunscreens,Blue light protection,Sensitive,Zinc Oxide,75 ml,21.83,7.80,1998,2025-05-29
+P0246,Fresh Alpha Veil,Luma Leaf,Serums,Texture,Sensitive,Alpha Arbutin,50 ml,34.02,18.67,559,2021-05-08
+P0247,Glow CoQ10 Veil,Golden State Skin,Anti-Aging Products,Firmness,Dry,Growth Factors,50 ml,83.20,31.68,505,2023-07-30
+P0248,Velvet Vitamin Elixir,Sunlit Science,Serums,Dullness,All,Copper Peptides,50 ml,108.62,57.73,582,2022-10-05
+P0249,Pure Rice Mist,Luma Leaf,Toners,Hydration,Combination,Centella,200 ml,14.81,7.34,125,2025-04-04
+P0250,Fresh Niacinamide Shield,Juniper Lab,Serums,Brightening,Normal,Niacinamide,50 ml,49.85,24.44,519,2022-05-18
+P0251,Dew Niacinamide Veil,Terra Dew,Sunscreens,UV protection,Normal,Titanium Dioxide,100 ml,23.06,8.73,865,2022-10-20
+P0252,Hydra Kaolin Shield,Sunlit Science,Face Masks,Oil control,Combination,Centella,50 ml,33.70,17.42,2223,2022-08-26
+P0253,Velvet Hyaluronic Veil,Pacific Ritual,Serums,Dark spots,All,Alpha Arbutin,50 ml,65.46,24.02,2181,2023-10-22
+P0254,Pure Hyaluronic Lotion,Golden State Skin,Moisturizers,Dryness,All,Shea Butter,100 ml,24.15,12.09,264,2022-06-21
+P0255,Dew Oat Repair,Pacific Ritual,Face Masks,Oil control,Normal,Oat Extract,50 ml,61.37,29.19,294,2021-09-12
+P0256,Velvet Copper Shield,Coast & Glow,Serums,Texture,Oily,Hyaluronic Acid,50 ml,52.39,18.79,658,2021-03-19
+P0257,Velvet Squalane Complex,DermaBloom,Eye Creams,Fine lines,Combination,Squalane,15 ml,57.66,31.41,222,2022-09-24
+P0258,Lunar Squalane Complex,DermaBloom,Moisturizers,Dryness,Sensitive,Squalane,75 ml,35.24,18.53,1842,2021-09-13
+P0259,Cloud Centella Repair,Juniper Lab,Face Masks,Detox,Oily,Centella,75 ml,61.50,29.60,936,2022-03-31
+P0260,Radiant Vitamin Complex,Juniper Lab,Serums,Dark spots,All,Copper Peptides,30 ml,61.20,25.04,801,2025-02-12
+P0261,Calm Shea Drops,Sunlit Science,Moisturizers,Dehydration,Sensitive,Peptides,50 ml,32.88,16.49,367,2022-08-08
+P0262,Hydra Peptides Ritual,DermaBloom,Moisturizers,Dehydration,All,Peptides,100 ml,27.12,10.41,298,2022-12-31
+P0263,Pure Vitamin Essence,Terra Dew,Eye Creams,Dark circles,Dry,Squalane,15 ml,22.32,12.33,67,2024-02-08
+P0264,Pure Oat Veil,DermaBloom,Face Masks,Glow,Sensitive,Oat Extract,100 ml,43.84,19.61,893,2025-06-03
+P0265,Renew Copper Lotion,Juniper Lab,Serums,Brightening,Dry,Niacinamide,30 ml,61.37,31.29,527,2022-06-09
+P0266,Pure Peptides Treatment,Halo Harbor,Moisturizers,Dryness,Sensitive,Hyaluronic Acid,75 ml,35.38,16.80,103,2023-05-09
+P0267,Fresh Rose Repair,Terra Dew,Toners,Balancing,Oily,Witch Hazel,150 ml,14.86,6.98,2448,2023-10-14
+P0268,Cloud Tea Essence,Sunlit Science,Acne Treatments,Blemishes,Oily,Azelaic Acid,30 ml,14.25,5.05,753,2022-05-31
+P0269,Glow Alpha Elixir,Sunlit Science,Serums,Dark spots,Dry,Niacinamide,50 ml,50.64,27.66,358,2022-01-10
+P0270,Hydra Tea Ritual,Golden State Skin,Acne Treatments,Acne,Sensitive,Salicylic Acid,30 ml,34.52,13.77,145,2024-06-07
+P0271,Dew Retinol Shield,Velvet Aloe,Anti-Aging Products,Elasticity,Combination,Growth Factors,50 ml,79.64,41.57,2201,2025-07-10
+P0272,Renew Centella Treatment,Velvet Aloe,Toners,Hydration,Normal,Witch Hazel,150 ml,14.05,7.79,2011,2025-07-26
+P0273,Pure Hyaluronic Elixir,Coast & Glow,Serums,Dullness,Sensitive,Alpha Arbutin,30 ml,98.94,42.14,310,2021-07-23
+P0274,Renew Niacinamide Lotion,Pacific Ritual,Serums,Hydration,Combination,Niacinamide,30 ml,75.03,34.23,2688,2022-02-12
+P0275,Cloud Enzymes Shield,Pacific Ritual,Face Masks,Oil control,Oily,Honey,100 ml,45.92,21.17,777,2025-08-26
+P0276,Pure Squalane Mist,Pure Mesa,Moisturizers,Dehydration,Oily,Ceramides,75 ml,20.83,8.09,943,2024-02-27
+P0277,Hydra Tea Shield,Sierra Skin Co,Acne Treatments,Redness,Normal,Tea Tree,30 ml,54.82,27.06,411,2021-07-22
+P0278,Glow Ceramides Shield,Pure Mesa,Moisturizers,Dryness,Sensitive,Peptides,100 ml,38.58,17.33,1564,2023-12-06
+P0279,Glow Salicylic Treatment,Terra Dew,Cleansers,Sensitive skin,Dry,Rice Water,100 ml,27.62,10.08,622,2024-05-27
+P0280,Cloud Honey Ritual,Pacific Ritual,Face Masks,Detox,Oily,Oat Extract,75 ml,56.87,27.83,801,2025-01-23
+P0281,Hydra Honey Mist,Halo Harbor,Face Masks,Hydration,All,Oat Extract,50 ml,28.58,15.71,714,2024-08-02
+P0282,Clear Green Complex,Juniper Lab,Cleansers,Daily cleansing,Dry,Aloe,100 ml,27.11,10.63,518,2022-09-25
+P0283,Renew Ceramides Gel,Pure Mesa,Moisturizers,Redness,Dry,Hyaluronic Acid,100 ml,28.51,10.05,1009,2022-10-06
+P0284,Lunar Retinol Shield,Sierra Skin Co,Anti-Aging Products,Wrinkles,Oily,Growth Factors,30 ml,72.21,27.12,945,2021-04-07
+P0285,Lunar Growth Ritual,Pacific Ritual,Anti-Aging Products,Elasticity,Combination,Bakuchiol,30 ml,89.12,35.28,726,2021-10-07
+P0286,Clear Titanium Gel,Luma Leaf,Sunscreens,Daily SPF,All,Titanium Dioxide,50 ml,27.69,12.59,429,2024-10-08
+P0287,Calm PHA Treatment,Velvet Aloe,Toners,Pore care,Oily,Witch Hazel,200 ml,25.27,12.57,737,2022-04-19
+P0288,Glow Niacinamide Treatment,Pure Mesa,Sunscreens,Blue light protection,All,Avobenzone,75 ml,43.45,17.92,655,2025-08-18
+P0289,Radiant Oat Shield,Velvet Aloe,Face Masks,Hydration,Sensitive,Oat Extract,75 ml,31.33,15.38,347,2023-08-03
+P0290,Cloud CoQ10 Shield,Halo Harbor,Anti-Aging Products,Firmness,Normal,CoQ10,50 ml,53.98,26.81,999,2024-06-29
+P0291,Lunar Titanium Lotion,Velvet Aloe,Sunscreens,Daily SPF,Combination,Titanium Dioxide,50 ml,30.77,12.43,490,2023-12-15
+P0292,Clear Titanium Repair,Golden State Skin,Sunscreens,Blue light protection,Combination,Titanium Dioxide,75 ml,39.74,16.47,913,2021-03-21
+P0293,Pure Peptides Mist,Coast & Glow,Eye Creams,Fine lines,All,Squalane,15 ml,75.68,32.81,707,2024-05-19
+P0294,Lunar Centella Ritual,Sierra Skin Co,Face Masks,Oil control,Combination,Centella,75 ml,62.63,23.24,524,2022-04-17
+P0295,Lunar CoQ10 Repair,Juniper Lab,Anti-Aging Products,Firmness,Oily,Peptides,30 ml,144.75,59.30,608,2024-10-03
+P0296,Calm Rice Elixir,Pacific Ritual,Cleansers,Pore care,Combination,Ceramides,100 ml,16.29,7.83,837,2023-05-19
+P0297,Clear Tea Shield,Golden State Skin,Acne Treatments,Redness,Combination,Sulfur,50 ml,24.17,9.79,580,2023-10-18
+P0298,Hydra Caffeine Veil,Sunlit Science,Eye Creams,Fine lines,All,Squalane,20 ml,58.57,27.02,2267,2024-11-11
+P0299,Glow Vitamin Shield,Halo Harbor,Serums,Hydration,Sensitive,Vitamin C,30 ml,100.87,42.61,591,2025-04-24
+P0300,Hydra Vitamin Treatment,Sunlit Science,Serums,Texture,Dry,Hyaluronic Acid,30 ml,118.29,65.18,494,2023-06-23

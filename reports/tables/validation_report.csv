@@ -1,0 +1,22 @@
+check_name,status,details
+customers_exactly_5000,PASS,5000
+products_exactly_300,PASS,300
+orders_at_least_100000,PASS,151517
+customer_pk_unique,PASS,5000 unique
+product_pk_unique,PASS,300 unique
+order_pk_unique,PASS,151517 unique
+customers_state_california,PASS,all customers use state California
+orders_customer_fk,PASS,Orders.customer_id references Customers
+items_order_product_fk,PASS,Order_Items references Orders and Products
+reviews_fk,PASS,"Reviews references Orders, Products, Customers"
+returns_fk,PASS,Returns references Orders and Products
+order_status_mix,PASS,delivered_share=0.945
+returns_after_delivery,PASS,all returns occur after delivered_date
+review_rating_average_around_4_2,PASS,avg_rating=4.252
+top_20_percent_customers_generate_60_to_70_percent_revenue,PASS,top20_share=0.686
+sunscreen_summer_lift,PASS,summer_avg=5703.3; other_avg=3046.4
+moisturizer_winter_lift,PASS,winter_avg=7360.2; other_avg=4005.0
+daily_feature_full_date_coverage,PASS,1096 rows from 2023-01-01 to 2025-12-31
+monthly_feature_36_rows,PASS,36 rows
+product_feature_300_rows,PASS,300 rows
+return_rate_low,PASS,item_return_rate=0.0269

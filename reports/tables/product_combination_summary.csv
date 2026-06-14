@@ -1,0 +1,31 @@
+category_1,category_2,order_count
+Moisturizers,Serums,16855
+Cleansers,Moisturizers,14177
+Moisturizers,Sunscreens,14058
+Serums,Sunscreens,13031
+Anti-Aging Products,Moisturizers,10773
+Serums,Toners,9862
+Cleansers,Serums,9339
+Eye Creams,Serums,8552
+Cleansers,Toners,8244
+Cleansers,Sunscreens,7758
+Moisturizers,Toners,7330
+Acne Treatments,Cleansers,6593
+Anti-Aging Products,Serums,6399
+Anti-Aging Products,Sunscreens,5528
+Anti-Aging Products,Eye Creams,5491
+Eye Creams,Moisturizers,5379
+Acne Treatments,Moisturizers,4637
+Face Masks,Moisturizers,3939
+Face Masks,Serums,3797
+Acne Treatments,Toners,3682
+Cleansers,Face Masks,3466
+Eye Creams,Sunscreens,3023
+Face Masks,Toners,2968
+Anti-Aging Products,Cleansers,2951
+Sunscreens,Toners,2759
+Acne Treatments,Serums,2642
+Eye Creams,Toners,2207
+Cleansers,Eye Creams,1558
+Acne Treatments,Sunscreens,1362
+Anti-Aging Products,Toners,1353

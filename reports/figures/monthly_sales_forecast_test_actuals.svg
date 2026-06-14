@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="70" y="28" font-size="20" font-family="Arial" font-weight="700">Monthly Forecast Test Actuals, Best Model: Holt-Winters Exponential Smoothing</text>
+<line x1="70" y1="48.0" x2="876" y2="48.0" stroke="#e8e8e8"/><text x="62" y="52.0" text-anchor="end" font-size="11">$722,168</text><line x1="70" y1="127.5" x2="876" y2="127.5" stroke="#e8e8e8"/><text x="62" y="131.5" text-anchor="end" font-size="11">$628,688</text><line x1="70" y1="207.0" x2="876" y2="207.0" stroke="#e8e8e8"/><text x="62" y="211.0" text-anchor="end" font-size="11">$535,208</text><line x1="70" y1="286.5" x2="876" y2="286.5" stroke="#e8e8e8"/><text x="62" y="290.5" text-anchor="end" font-size="11">$441,729</text><line x1="70" y1="366.0" x2="876" y2="366.0" stroke="#e8e8e8"/><text x="62" y="370.0" text-anchor="end" font-size="11">$348,249</text>
+<polyline fill="none" stroke="#1f77b4" stroke-width="2.4" points="70.0,313.0 231.2,361.7 392.4,366.0 553.6,352.6 714.8,48.0 876.0,94.4"/>
+<line x1="70" y1="366" x2="876" y2="366" stroke="#333"/>
+<line x1="70" y1="48" x2="70" y2="366" stroke="#333"/>
+<text x="70.0" y="400" text-anchor="middle" font-size="11">2025-07-01</text><text x="231.2" y="400" text-anchor="middle" font-size="11">2025-08-01</text><text x="553.6" y="400" text-anchor="middle" font-size="11">2025-10-01</text><text x="714.8" y="400" text-anchor="middle" font-size="11">2025-11-01</text><text x="876.0" y="400" text-anchor="middle" font-size="11">2025-12-01</text>
+</svg>

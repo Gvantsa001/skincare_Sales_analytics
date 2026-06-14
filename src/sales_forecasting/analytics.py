@@ -1,0 +1,195 @@
+from __future__ import annotations
+
+from collections import defaultdict
+
+from .charts import svg_bar_chart, svg_line_chart
+from .config import FIGURES_DIR, PROCESSED_DIR, RAW_DIR, TABLES_DIR, ensure_directories
+from .io_utils import as_float, as_int, money, read_csv, write_csv
+
+
+def run_analytics() -> dict[str, int]:
+    ensure_directories()
+    monthly = read_csv(PROCESSED_DIR / "Monthly_Sales_Features.csv")
+    daily = read_csv(PROCESSED_DIR / "Daily_Sales_Features.csv")
+    product_features = read_csv(PROCESSED_DIR / "Product_Features.csv")
+    customer_features = read_csv(PROCESSED_DIR / "Customer_Features.csv")
+    orders = read_csv(RAW_DIR / "Orders.csv")
+    order_items = read_csv(RAW_DIR / "Order_Items.csv")
+    products = {row["product_id"]: row for row in read_csv(RAW_DIR / "Products.csv")}
+    orders_by_id = {row["order_id"]: row for row in orders}
+
+    category_rows = []
+    by_category: dict[str, dict] = defaultdict(lambda: {"units": 0, "sales": 0.0, "orders": 0, "returns": 0, "reviews": 0, "rating_total": 0.0})
+    for product in product_features:
+        bucket = by_category[product["category"]]
+        bucket["units"] += as_int(product["units_sold"])
+        bucket["sales"] += as_float(product["total_sales"])
+        bucket["orders"] += as_int(product["order_count"])
+        bucket["returns"] += as_int(product["return_count"])
+        bucket["reviews"] += as_int(product["review_count"])
+        if product["avg_rating"]:
+            bucket["rating_total"] += as_float(product["avg_rating"]) * as_int(product["review_count"])
+    for category, bucket in sorted(by_category.items()):
+        category_rows.append(
+            {
+                "category": category,
+                "units_sold": bucket["units"],
+                "total_sales": money(bucket["sales"]),
+                "order_count": bucket["orders"],
+                "return_count": bucket["returns"],
+                "review_count": bucket["reviews"],
+                "avg_rating": f"{bucket['rating_total'] / bucket['reviews']:.2f}" if bucket["reviews"] else "",
+                "return_rate_by_order": f"{bucket['returns'] / bucket['orders']:.4f}" if bucket["orders"] else "0.0000",
+            }
+        )
+
+    channel: dict[str, dict] = defaultdict(lambda: {"orders": 0, "gross": 0.0, "discount": 0.0, "sales": 0.0})
+    for order in orders:
+        if order["order_status"] != "Delivered":
+            continue
+        bucket = channel[order["sales_channel"]]
+        bucket["orders"] += 1
+        bucket["gross"] += as_float(order["gross_amount"])
+        bucket["discount"] += as_float(order["discount_amount"])
+        bucket["sales"] += as_float(order["final_amount"])
+    channel_rows = [
+        {
+            "sales_channel": key,
+            "total_orders": value["orders"],
+            "gross_sales": money(value["gross"]),
+            "total_discount": money(value["discount"]),
+            "total_sales": money(value["sales"]),
+            "avg_order_value": money(value["sales"] / value["orders"]) if value["orders"] else "0.00",
+        }
+        for key, value in sorted(channel.items())
+    ]
+
+    segment: dict[str, dict] = defaultdict(lambda: {"customers": 0, "orders": 0, "sales": 0.0, "returns": 0})
+    for customer in customer_features:
+        bucket = segment[customer["customer_segment"]]
+        bucket["customers"] += 1
+        bucket["orders"] += as_int(customer["total_orders"])
+        bucket["sales"] += as_float(customer["total_sales"])
+        bucket["returns"] += as_int(customer["return_count"])
+    segment_rows = [
+        {
+            "customer_segment": key,
+            "customers": value["customers"],
+            "total_orders": value["orders"],
+            "total_sales": money(value["sales"]),
+            "return_count": value["returns"],
+            "avg_customer_value": money(value["sales"] / value["customers"]) if value["customers"] else "0.00",
+        }
+        for key, value in sorted(segment.items())
+    ]
+
+    promo_months = {("2023-11", "2023-12"), ("2024-11", "2024-12"), ("2025-11", "2025-12")}
+    top_products = sorted(product_features, key=lambda row: as_float(row["popularity_score"]), reverse=True)[:25]
+    long_tail_products = sorted(product_features, key=lambda row: as_float(row["popularity_score"]))[:25]
+    product_rank_rows = [
+        {
+            "rank_type": "Top 25",
+            "product_id": row["product_id"],
+            "product_name": row["product_name"],
+            "category": row["category"],
+            "total_sales": row["total_sales"],
+            "units_sold": row["units_sold"],
+            "popularity_score": row["popularity_score"],
+        }
+        for row in top_products
+    ] + [
+        {
+            "rank_type": "Long Tail 25",
+            "product_id": row["product_id"],
+            "product_name": row["product_name"],
+            "category": row["category"],
+            "total_sales": row["total_sales"],
+            "units_sold": row["units_sold"],
+            "popularity_score": row["popularity_score"],
+        }
+        for row in long_tail_products
+    ]
+
+    # A simple product-combination table for merchandising analysis.
+    combination_counts: dict[tuple[str, str], int] = defaultdict(int)
+    order_categories: dict[str, set[str]] = defaultdict(set)
+    for item in order_items:
+        order = orders_by_id[item["order_id"]]
+        if order["order_status"] == "Delivered":
+            order_categories[item["order_id"]].add(products[item["product_id"]]["category"])
+    for categories in order_categories.values():
+        sorted_categories = sorted(categories)
+        for idx, first in enumerate(sorted_categories):
+            for second in sorted_categories[idx + 1 :]:
+                combination_counts[(first, second)] += 1
+    combination_rows = [
+        {"category_1": first, "category_2": second, "order_count": count}
+        for (first, second), count in sorted(combination_counts.items(), key=lambda item: item[1], reverse=True)[:30]
+    ]
+
+    counts = {
+        "monthly_sales_summary": write_csv(
+            TABLES_DIR / "monthly_sales_summary.csv",
+            monthly,
+            [
+                "month_start",
+                "total_sales",
+                "total_orders",
+                "gross_sales",
+                "total_discount",
+                "units_sold",
+                "return_count",
+                "review_count",
+                "avg_rating",
+                "avg_order_value",
+                "return_rate",
+                "sales_lag_1m",
+                "sales_lag_3m",
+                "sales_lag_12m",
+                "rolling_3m_sales",
+                "rolling_6m_sales",
+                "sales_growth_mom_pct",
+                "seasonality_index",
+            ],
+        ),
+        "category_summary": write_csv(
+            TABLES_DIR / "category_summary.csv",
+            category_rows,
+            ["category", "units_sold", "total_sales", "order_count", "return_count", "review_count", "avg_rating", "return_rate_by_order"],
+        ),
+        "channel_summary": write_csv(
+            TABLES_DIR / "channel_summary.csv",
+            channel_rows,
+            ["sales_channel", "total_orders", "gross_sales", "total_discount", "total_sales", "avg_order_value"],
+        ),
+        "customer_segment_summary": write_csv(
+            TABLES_DIR / "customer_segment_summary.csv",
+            segment_rows,
+            ["customer_segment", "customers", "total_orders", "total_sales", "return_count", "avg_customer_value"],
+        ),
+        "product_rank_summary": write_csv(
+            TABLES_DIR / "product_rank_summary.csv",
+            product_rank_rows,
+            ["rank_type", "product_id", "product_name", "category", "total_sales", "units_sold", "popularity_score"],
+        ),
+        "product_combination_summary": write_csv(TABLES_DIR / "product_combination_summary.csv", combination_rows, ["category_1", "category_2", "order_count"]),
+    }
+
+    svg_line_chart(
+        FIGURES_DIR / "daily_total_sales.svg",
+        [(row["date"], as_float(row["total_sales"])) for row in daily],
+        "Daily Total Sales, 2023-2025",
+    )
+    svg_bar_chart(
+        FIGURES_DIR / "monthly_total_sales.svg",
+        [(row["month_start"], as_float(row["total_sales"])) for row in monthly],
+        "Monthly Total Sales",
+        width=1200,
+    )
+    svg_bar_chart(
+        FIGURES_DIR / "category_total_sales.svg",
+        [(row["category"], as_float(row["total_sales"])) for row in category_rows],
+        "Total Sales by Category",
+    )
+    return counts
+

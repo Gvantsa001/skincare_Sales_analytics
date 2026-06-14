@@ -1,0 +1,301 @@
+product_id,product_name,brand,category,units_sold,total_sales,order_count,avg_unit_price,avg_discount_pct,return_count,review_count,avg_rating,return_rate_by_order,gross_margin_per_unit,gross_margin_pct,popularity_score
+P0001,Clear Niacinamide Essence,Luma Leaf,Serums,3020,167539.93,3003,59.78,0.0720,79,711,4.33,0.0263,29.20,0.5263,11.80
+P0002,Hydra Hyaluronic Elixir,Terra Dew,Moisturizers,1790,38570.35,1782,23.13,0.0684,36,432,4.14,0.0202,9.62,0.4463,6.02
+P0003,Glow Titanium Repair,Juniper Lab,Sunscreens,6662,263065.09,5746,42.70,0.0752,187,1383,3.96,0.0325,18.79,0.4758,23.56
+P0004,Calm PHA Ritual,Pure Mesa,Toners,75,2579.73,64,35.96,0.0428,0,11,4.00,0.0000,17.39,0.5055,0.24
+P0005,Velvet Salicylic Mist,Halo Harbor,Acne Treatments,551,24269.36,549,46.73,0.0574,27,81,3.48,0.0492,25.00,0.5675,1.86
+P0006,Renew Green Lotion,Velvet Aloe,Cleansers,949,16201.91,827,17.93,0.0489,21,116,4.04,0.0254,10.13,0.5935,2.69
+P0007,Lunar Niacinamide Ritual,Terra Dew,Serums,61,2639.68,61,48.02,0.0989,2,7,4.14,0.0328,26.09,0.6030,0.20
+P0008,Clear Copper Mist,DermaBloom,Serums,303,27726.68,303,98.84,0.0742,10,32,3.97,0.0330,42.39,0.4632,1.22
+P0009,Cloud Vitamin Ritual,Pure Mesa,Eye Creams,1010,21130.12,992,22.23,0.0589,37,151,4.29,0.0373,10.31,0.4929,3.04
+P0010,Clear Zinc Drops,Luma Leaf,Sunscreens,112,4484.65,94,43.08,0.0702,5,9,3.89,0.0532,21.61,0.5397,0.34
+P0011,Pure Avobenzone Treatment,Pure Mesa,Sunscreens,8,351.46,6,45.35,0.0333,0,2,4.00,0.0000,28.46,0.6479,0.03
+P0012,Dew Vitamin Lotion,Coast & Glow,Serums,2086,53009.24,2077,27.27,0.0682,64,361,4.25,0.0308,15.03,0.5915,6.61
+P0013,Hydra Vitamin Elixir,Sunlit Science,Serums,281,28672.43,281,110.53,0.0768,3,41,4.37,0.0107,57.40,0.5625,1.22
+P0014,Cloud Salicylic Elixir,Luma Leaf,Acne Treatments,82,2229.19,82,28.94,0.0606,3,10,4.10,0.0366,16.44,0.6046,0.25
+P0015,Clear Vitamin Shield,Pure Mesa,Sunscreens,8526,347837.57,7190,44.14,0.0750,254,1761,4.15,0.0353,17.31,0.4242,30.30
+P0016,Cloud Bakuchiol Mist,Velvet Aloe,Anti-Aging Products,106,10901.18,106,109.33,0.0593,5,13,4.31,0.0472,47.32,0.4601,0.45
+P0017,Cloud Niacinamide Elixir,Halo Harbor,Serums,241,12421.90,241,55.67,0.0741,9,27,4.00,0.0373,24.18,0.4692,0.81
+P0018,Glow Honey Veil,Juniper Lab,Face Masks,135,5848.49,135,46.38,0.0659,3,34,4.44,0.0222,17.89,0.4130,0.51
+P0019,Dew Salicylic Treatment,Velvet Aloe,Cleansers,464,11309.00,409,25.69,0.0515,10,60,4.22,0.0244,12.55,0.5150,1.39
+P0020,Fresh Salicylic Elixir,Terra Dew,Acne Treatments,8242,381731.07,7987,48.43,0.0437,336,1997,4.07,0.0421,20.93,0.4518,31.17
+P0021,Dew Copper Drops,Luma Leaf,Serums,259,21967.83,259,93.98,0.0975,7,39,3.77,0.0270,44.56,0.5253,1.06
+P0022,Radiant Rice Mist,Luma Leaf,Toners,244,3700.64,208,15.77,0.0374,0,23,4.17,0.0000,7.65,0.5042,0.66
+P0023,Pure CoQ10 Veil,Halo Harbor,Anti-Aging Products,220,12356.42,218,58.03,0.0321,11,30,3.73,0.0505,35.55,0.6329,0.78
+P0024,Radiant Avobenzone Essence,Golden State Skin,Sunscreens,191,4433.02,163,24.80,0.0658,5,20,4.65,0.0307,12.94,0.5575,0.55
+P0025,Hydra Hyaluronic Drops,DermaBloom,Moisturizers,153,5929.70,153,41.44,0.0648,2,25,3.84,0.0131,23.13,0.5967,0.51
+P0026,Hydra Benzoyl Essence,Coast & Glow,Acne Treatments,306,11547.67,304,39.87,0.0535,11,55,4.47,0.0362,21.71,0.5752,1.04
+P0027,Dew Niacinamide Elixir,Sierra Skin Co,Sunscreens,13833,560526.39,11579,43.75,0.0738,419,2804,4.33,0.0362,17.84,0.4403,48.89
+P0028,Radiant Ceramides Ritual,Pacific Ritual,Cleansers,43,1363.12,32,35.06,0.0922,1,3,4.33,0.0312,14.56,0.4593,0.12
+P0029,Renew Benzoyl Drops,Halo Harbor,Acne Treatments,104,2652.06,104,26.81,0.0488,5,13,4.08,0.0481,10.80,0.4235,0.31
+P0030,Clear Salicylic Veil,Sierra Skin Co,Cleansers,361,4371.07,308,12.73,0.0484,6,26,4.65,0.0195,7.33,0.6052,0.93
+P0031,Lunar Witch Gel,Halo Harbor,Toners,27,426.76,20,17.73,0.0990,0,2,5.00,0.0000,8.59,0.5432,0.07
+P0032,Pure PHA Complex,Coast & Glow,Toners,364,10065.65,312,28.54,0.0289,5,53,4.68,0.0160,17.16,0.6207,1.13
+P0033,Velvet Witch Drops,DermaBloom,Toners,573,15624.99,495,28.68,0.0481,12,83,3.86,0.0242,15.61,0.5724,1.77
+P0034,Dew Centella Treatment,Pacific Ritual,Face Masks,123,2786.57,123,24.52,0.0760,2,20,4.45,0.0163,13.98,0.6169,0.38
+P0035,Glow Azelaic Lotion,Coast & Glow,Acne Treatments,225,5293.30,223,24.37,0.0346,9,30,3.70,0.0404,13.99,0.5945,0.67
+P0036,Dew Peptides Repair,Golden State Skin,Moisturizers,649,28335.48,647,46.72,0.0655,23,115,4.23,0.0355,18.92,0.4334,2.26
+P0037,Radiant Copper Elixir,Luma Leaf,Serums,427,13998.41,426,35.76,0.0832,19,64,4.67,0.0446,16.09,0.4909,1.37
+P0038,Velvet Green Ritual,Juniper Lab,Cleansers,11899,218613.10,10054,19.26,0.0464,194,2538,4.18,0.0193,11.69,0.6364,38.15
+P0039,Pure Rice Complex,Sunlit Science,Toners,1023,39947.70,856,40.53,0.0367,13,157,4.57,0.0152,22.38,0.5731,3.40
+P0040,Clear Sulfur Lotion,Sunlit Science,Acne Treatments,195,9001.27,195,48.33,0.0449,10,20,3.95,0.0513,27.21,0.5895,0.63
+P0041,Clear Growth Drops,Velvet Aloe,Anti-Aging Products,42,3671.48,42,95.86,0.0881,2,5,4.40,0.0476,50.88,0.5820,0.17
+P0042,Dew Peptides Essence,Pure Mesa,Eye Creams,41,3146.24,41,80.24,0.0437,4,7,3.43,0.0976,33.15,0.4320,0.16
+P0043,Hydra Niacinamide Mist,Luma Leaf,Serums,170,4889.00,170,31.10,0.0753,8,25,3.76,0.0471,15.50,0.5389,0.53
+P0044,Pure Aloe Essence,Terra Dew,Cleansers,141,3584.51,128,26.58,0.0425,4,16,4.62,0.0312,12.02,0.4729,0.42
+P0045,Velvet Salicylic Ritual,Coast & Glow,Acne Treatments,453,10750.89,452,24.69,0.0388,14,59,4.34,0.0310,10.74,0.4527,1.35
+P0046,Pure Shea Ritual,Sierra Skin Co,Moisturizers,470,13425.25,470,30.76,0.0714,16,78,4.27,0.0340,14.03,0.4913,1.50
+P0047,Pure Peptides Ritual,DermaBloom,Moisturizers,420,26991.85,419,69.31,0.0728,9,64,4.20,0.0215,34.08,0.5302,1.57
+P0048,Hydra Ceramides Lotion,Halo Harbor,Moisturizers,116,3265.50,116,29.83,0.0563,5,16,4.62,0.0431,12.89,0.4579,0.36
+P0049,Radiant Peptides Treatment,Halo Harbor,Eye Creams,10564,603754.42,9889,61.38,0.0689,323,2545,4.64,0.0327,23.21,0.4061,41.80
+P0050,Renew Squalane Shield,Coast & Glow,Eye Creams,45,1004.54,45,24.16,0.0760,1,2,4.50,0.0222,9.94,0.4454,0.12
+P0051,Velvet PHA Ritual,DermaBloom,Toners,506,7812.67,442,16.11,0.0405,5,58,4.02,0.0113,7.79,0.5045,1.41
+P0052,Dew Retinol Treatment,Sunlit Science,Anti-Aging Products,148,5672.23,148,39.96,0.0409,8,23,3.74,0.0541,22.76,0.5937,0.49
+P0053,Clear Alpha Mist,Juniper Lab,Serums,283,10692.88,283,40.80,0.0739,10,23,4.13,0.0353,23.62,0.6252,0.86
+P0054,Pure Ceramides Ritual,Sunlit Science,Cleansers,5383,156587.73,4583,30.49,0.0453,76,1114,3.95,0.0166,16.34,0.5617,18.09
+P0055,Fresh Retinol Gel,Velvet Aloe,Eye Creams,1431,55058.40,1408,40.55,0.0511,48,229,3.78,0.0341,21.55,0.5600,4.78
+P0056,Lunar Aloe Gel,Halo Harbor,Cleansers,276,4764.00,234,18.20,0.0518,3,30,4.17,0.0128,10.96,0.6350,0.77
+P0057,Clear PHA Mist,Terra Dew,Toners,212,4468.39,178,21.89,0.0381,5,21,4.62,0.0281,9.14,0.4335,0.60
+P0058,Glow Hyaluronic Treatment,Juniper Lab,Moisturizers,164,5178.14,164,33.25,0.0504,3,25,4.00,0.0183,19.20,0.6082,0.52
+P0059,Calm Squalane Mist,Pure Mesa,Moisturizers,11119,332042.95,10774,32.10,0.0697,318,2639,4.33,0.0295,16.77,0.5617,38.79
+P0060,Hydra Oat Elixir,DermaBloom,Face Masks,1967,109749.05,1959,60.70,0.0808,48,469,3.91,0.0245,22.90,0.4103,7.72
+P0061,Hydra Sulfur Repair,Terra Dew,Acne Treatments,68,2298.14,68,35.69,0.0531,4,10,4.10,0.0588,14.23,0.4209,0.22
+P0062,Fresh Alpha Essence,Juniper Lab,Serums,210,22930.74,210,116.63,0.0638,5,30,4.13,0.0238,47.24,0.4327,0.93
+P0063,Cloud CoQ10 Gel,Luma Leaf,Anti-Aging Products,23,2113.88,23,98.55,0.0674,3,1,4.00,0.1304,38.24,0.4160,0.09
+P0064,Hydra Bakuchiol Repair,DermaBloom,Anti-Aging Products,371,28650.74,370,79.97,0.0343,17,40,4.03,0.0459,47.44,0.6142,1.40
+P0065,Hydra Kaolin Essence,Sierra Skin Co,Face Masks,22,442.06,22,24.60,0.1832,2,4,4.00,0.0909,8.52,0.4242,0.07
+P0066,Fresh Witch Shield,Halo Harbor,Toners,203,2841.28,176,14.55,0.0373,4,18,4.56,0.0227,6.43,0.4591,0.54
+P0067,Radiant Aloe Veil,Golden State Skin,Cleansers,152,3552.84,131,24.46,0.0460,2,10,4.20,0.0153,10.12,0.4331,0.41
+P0068,Hydra Green Lotion,Sierra Skin Co,Cleansers,774,19880.45,656,26.88,0.0443,10,103,4.35,0.0152,16.44,0.6399,2.34
+P0069,Fresh Enzymes Shield,Terra Dew,Face Masks,117,6303.06,117,58.83,0.0843,1,11,3.82,0.0085,33.60,0.6237,0.39
+P0070,Hydra Avobenzone Complex,Velvet Aloe,Sunscreens,295,12474.10,253,45.76,0.0773,7,31,4.29,0.0277,23.49,0.5554,0.94
+P0071,Renew Peptides Gel,Pure Mesa,Moisturizers,248,5458.84,248,23.45,0.0614,7,27,4.26,0.0282,13.24,0.6016,0.71
+P0072,Glow Hyaluronic Gel,Juniper Lab,Moisturizers,185,9038.40,185,52.04,0.0612,5,23,4.30,0.0270,25.62,0.5243,0.62
+P0073,Hydra Ceramides Veil,Terra Dew,Moisturizers,70,2070.88,70,31.07,0.0479,1,4,4.00,0.0143,17.82,0.6025,0.20
+P0074,Velvet PHA Treatment,Pure Mesa,Toners,615,9359.02,525,15.95,0.0459,15,81,3.70,0.0286,8.78,0.5768,1.75
+P0075,Calm Niacinamide Drops,Sunlit Science,Serums,3,94.35,3,31.45,0.0000,0,0,,0.0000,13.94,0.4432,0.01
+P0076,Cloud Vitamin Veil,DermaBloom,Serums,34,1969.11,34,65.90,0.1212,1,5,4.40,0.0294,31.86,0.5500,0.12
+P0077,Cloud Rice Elixir,Pacific Ritual,Toners,89,1565.69,75,18.21,0.0389,3,6,4.33,0.0400,8.77,0.4986,0.23
+P0078,Calm Green Essence,Juniper Lab,Cleansers,2440,73891.07,2115,31.81,0.0474,44,368,3.94,0.0208,13.71,0.4528,7.73
+P0079,Cloud Avobenzone Treatment,Luma Leaf,Sunscreens,294,11531.83,256,42.31,0.0741,8,39,4.44,0.0312,15.77,0.4022,0.95
+P0080,Glow Niacinamide Essence,Sierra Skin Co,Sunscreens,531,13241.72,462,26.94,0.0758,16,83,3.93,0.0346,15.22,0.6102,1.65
+P0081,Radiant Ceramides Drops,Velvet Aloe,Cleansers,498,7686.04,430,16.15,0.0436,8,53,4.19,0.0186,8.77,0.5685,1.37
+P0082,Clear Squalane Treatment,Sierra Skin Co,Eye Creams,947,19876.92,934,22.16,0.0528,38,126,3.93,0.0407,9.82,0.4678,2.79
+P0083,Glow Hyaluronic Treatment,Luma Leaf,Moisturizers,79,1755.16,79,23.39,0.0501,2,7,3.86,0.0253,12.88,0.5796,0.22
+P0084,Velvet Squalane Shield,Golden State Skin,Moisturizers,277,8602.48,276,33.35,0.0688,9,29,4.72,0.0326,17.47,0.5624,0.83
+P0085,Lunar Hyaluronic Complex,Pacific Ritual,Moisturizers,693,24076.14,693,37.18,0.0656,13,99,3.93,0.0188,21.41,0.6163,2.22
+P0086,Radiant Azelaic Ritual,Sierra Skin Co,Acne Treatments,211,6640.11,211,32.73,0.0385,4,24,3.71,0.0190,17.31,0.5500,0.64
+P0087,Calm Honey Mist,Sunlit Science,Face Masks,68,3396.20,68,55.16,0.0946,4,5,4.60,0.0588,21.66,0.4338,0.22
+P0088,Calm CoQ10 Complex,Juniper Lab,Anti-Aging Products,66,2378.94,66,40.45,0.1089,1,13,3.77,0.0152,20.92,0.5805,0.23
+P0089,Clear Centella Drops,Velvet Aloe,Toners,280,7836.43,249,28.86,0.0309,3,34,4.76,0.0120,13.34,0.4765,0.84
+P0090,Renew Shea Shield,Sierra Skin Co,Moisturizers,1326,71646.60,1324,58.21,0.0718,52,316,3.50,0.0393,33.36,0.6174,5.16
+P0091,Dew CoQ10 Essence,Golden State Skin,Anti-Aging Products,15,1600.24,15,120.68,0.1160,0,3,4.33,0.0000,43.27,0.4056,0.07
+P0092,Fresh Vitamin Drops,Luma Leaf,Serums,31,2334.34,31,82.11,0.0829,0,2,4.50,0.0000,41.96,0.5572,0.11
+P0093,Renew Titanium Veil,Terra Dew,Sunscreens,152,6879.13,129,50.22,0.0981,4,18,3.78,0.0310,17.32,0.3826,0.50
+P0094,Renew Niacinamide Veil,Terra Dew,Serums,117,4250.75,117,39.55,0.0814,5,14,3.93,0.0427,14.21,0.3912,0.37
+P0095,Dew PHA Essence,Velvet Aloe,Toners,321,5090.67,285,16.43,0.0342,7,36,4.28,0.0246,9.59,0.6046,0.89
+P0096,Glow Centella Essence,Golden State Skin,Face Masks,139,6049.39,139,47.10,0.0760,3,11,3.91,0.0216,26.94,0.6190,0.43
+P0097,Dew Hyaluronic Gel,Sunlit Science,Moisturizers,131,8494.71,131,69.39,0.0655,9,13,4.00,0.0687,27.12,0.4182,0.46
+P0098,Fresh Avobenzone Elixir,Pacific Ritual,Sunscreens,52,1669.96,47,33.97,0.0468,3,5,3.60,0.0638,13.22,0.4118,0.16
+P0099,Lunar Sulfur Veil,Juniper Lab,Acne Treatments,161,6754.68,160,43.74,0.0408,8,14,3.64,0.0500,21.37,0.5095,0.50
+P0100,Renew Copper Essence,Pacific Ritual,Serums,2107,89142.20,2081,45.86,0.0775,71,501,3.93,0.0341,24.53,0.5797,7.79
+P0101,Renew Green Lotion,Terra Dew,Cleansers,236,6222.91,208,27.90,0.0572,2,27,4.11,0.0096,11.48,0.4353,0.70
+P0102,Cloud Caffeine Lotion,Coast & Glow,Eye Creams,28,2222.21,28,83.26,0.0468,0,6,3.83,0.0000,40.14,0.5058,0.12
+P0103,Fresh Bakuchiol Veil,Pacific Ritual,Anti-Aging Products,15,1404.75,15,100.70,0.0700,2,1,5.00,0.1333,55.86,0.5965,0.06
+P0104,Dew Copper Repair,Sierra Skin Co,Serums,390,42097.79,390,116.63,0.0745,12,35,4.23,0.0308,57.35,0.5313,1.65
+P0105,Dew Hyaluronic Mist,Coast & Glow,Serums,177,5393.06,176,33.72,0.0964,5,17,4.53,0.0284,13.38,0.4391,0.52
+P0106,Velvet Green Veil,Juniper Lab,Cleansers,155,1967.91,133,13.31,0.0479,1,15,4.47,0.0075,7.64,0.6015,0.41
+P0107,Radiant Retinol Ritual,Juniper Lab,Anti-Aging Products,150,6087.03,149,42.57,0.0467,5,22,3.64,0.0336,23.29,0.5739,0.50
+P0108,Renew Avobenzone Elixir,Pacific Ritual,Sunscreens,169,5432.25,147,35.63,0.0929,9,20,4.80,0.0612,17.72,0.5514,0.52
+P0109,Velvet Niacinamide Mist,Terra Dew,Serums,25,720.51,25,34.96,0.1756,0,1,4.00,0.0000,15.19,0.5271,0.07
+P0110,Velvet PHA Lotion,Velvet Aloe,Toners,892,24462.41,759,29.14,0.0573,16,128,4.14,0.0211,12.03,0.4388,2.76
+P0111,Clear Copper Gel,Terra Dew,Serums,205,19438.03,204,102.15,0.0718,6,29,4.24,0.0294,59.19,0.6242,0.86
+P0112,Fresh Vitamin Veil,Pure Mesa,Serums,70,2426.52,70,38.31,0.0951,1,9,4.00,0.0143,14.30,0.4127,0.22
+P0113,Pure Niacinamide Shield,DermaBloom,Sunscreens,3519,148323.97,2844,45.47,0.0723,110,775,4.50,0.0387,17.18,0.4076,12.77
+P0114,Clear Vitamin Essence,Luma Leaf,Sunscreens,3,119.94,3,41.36,0.0333,0,0,,0.0000,17.63,0.4410,0.01
+P0115,Renew Honey Shield,Pacific Ritual,Face Masks,47,2689.02,47,63.27,0.0957,1,6,4.50,0.0213,25.69,0.4491,0.17
+P0116,Cloud Titanium Complex,Sunlit Science,Sunscreens,246,5884.58,206,25.74,0.0689,6,22,4.09,0.0291,10.16,0.4248,0.70
+P0117,Radiant Kaolin Treatment,Golden State Skin,Face Masks,818,28299.97,817,37.57,0.0791,16,195,4.51,0.0196,17.01,0.4916,2.92
+P0118,Cloud Rice Mist,Halo Harbor,Cleansers,1777,54319.44,1509,32.31,0.0541,32,220,4.14,0.0212,15.76,0.5155,5.45
+P0119,Calm Rice Veil,Sunlit Science,Cleansers,492,5700.42,422,12.10,0.0420,6,47,4.17,0.0142,7.27,0.6271,1.30
+P0120,Radiant Growth Treatment,Golden State Skin,Anti-Aging Products,40,4393.78,40,118.27,0.0713,0,7,4.43,0.0000,65.30,0.5945,0.18
+P0121,Glow Vitamin Shield,Pacific Ritual,Serums,3217,205558.16,3193,68.84,0.0718,83,805,4.14,0.0260,38.02,0.5950,13.20
+P0122,Calm Benzoyl Essence,Halo Harbor,Acne Treatments,153,4110.44,153,28.51,0.0576,7,17,4.65,0.0458,13.23,0.4923,0.45
+P0123,Cloud Hyaluronic Ritual,Halo Harbor,Moisturizers,805,49834.87,803,66.30,0.0662,15,130,4.49,0.0187,34.62,0.5592,3.01
+P0124,Clear Avobenzone Elixir,Terra Dew,Sunscreens,2505,114845.86,2169,49.58,0.0747,67,546,4.72,0.0309,28.83,0.6288,9.22
+P0125,Dew Peptides Shield,Juniper Lab,Moisturizers,13625,286821.37,13294,22.61,0.0690,352,3339,4.33,0.0265,11.65,0.5535,45.94
+P0126,Pure Niacinamide Repair,Golden State Skin,Sunscreens,14,557.47,13,42.17,0.0562,0,2,4.50,0.0000,25.20,0.6328,0.05
+P0127,Clear Alpha Gel,Velvet Aloe,Serums,350,18614.83,350,57.73,0.0787,17,42,3.57,0.0486,23.51,0.4420,1.20
+P0128,Glow Peptides Veil,Sunlit Science,Anti-Aging Products,145,12315.93,145,88.61,0.0414,3,17,4.47,0.0207,51.89,0.6109,0.57
+P0129,Renew Rice Essence,Halo Harbor,Cleansers,11,253.48,10,23.47,0.0150,0,0,,0.0000,10.46,0.4541,0.03
+P0130,Fresh Peptides Gel,Golden State Skin,Moisturizers,57,2473.62,57,47.46,0.0856,2,8,4.50,0.0351,24.88,0.5732,0.19
+P0131,Cloud Benzoyl Veil,Halo Harbor,Acne Treatments,215,6723.42,214,32.92,0.0500,8,23,3.91,0.0374,19.88,0.6358,0.65
+P0132,Cloud Green Essence,Juniper Lab,Cleansers,2480,77099.52,2096,32.57,0.0452,35,333,4.19,0.0167,16.34,0.5255,7.73
+P0133,Fresh Titanium Complex,DermaBloom,Sunscreens,74,2600.08,67,37.83,0.0678,6,12,4.58,0.0896,16.48,0.4689,0.24
+P0134,Renew Shea Ritual,Juniper Lab,Moisturizers,195,10333.39,195,56.87,0.0682,3,29,4.24,0.0154,27.53,0.5195,0.69
+P0135,Radiant Niacinamide Essence,Juniper Lab,Serums,83,1968.22,83,26.31,0.0987,4,15,3.80,0.0482,13.24,0.5585,0.26
+P0136,Hydra Ceramides Essence,DermaBloom,Moisturizers,180,11408.11,180,66.93,0.0531,5,19,4.05,0.0278,39.72,0.6267,0.64
+P0137,Cloud Kaolin Complex,Terra Dew,Face Masks,652,9666.87,652,16.02,0.0745,21,105,4.15,0.0322,7.85,0.5292,1.92
+P0138,Fresh PHA Shield,Sierra Skin Co,Toners,571,18357.14,486,33.55,0.0418,8,65,4.08,0.0165,20.42,0.6351,1.75
+P0139,Velvet Retinol Complex,Velvet Aloe,Anti-Aging Products,11,394.22,11,42.71,0.1609,2,2,5.00,0.1818,19.27,0.5376,0.04
+P0140,Hydra Vitamin Veil,Halo Harbor,Sunscreens,208,5726.51,176,29.27,0.0610,4,15,4.27,0.0227,13.73,0.4988,0.59
+P0141,Hydra Aloe Ritual,Halo Harbor,Cleansers,544,6947.34,468,13.41,0.0481,9,54,4.69,0.0192,7.46,0.5842,1.46
+P0142,Hydra Tea Treatment,Juniper Lab,Acne Treatments,99,1146.41,99,12.15,0.0469,2,14,4.00,0.0202,6.75,0.5829,0.28
+P0143,Radiant Rice Drops,Pure Mesa,Toners,38,1093.18,32,30.40,0.0544,0,5,4.40,0.0000,13.93,0.4841,0.12
+P0144,Renew Hyaluronic Mist,Pure Mesa,Moisturizers,2012,117573.27,2006,62.61,0.0667,53,521,4.41,0.0264,32.39,0.5542,8.14
+P0145,Renew Ceramides Elixir,DermaBloom,Moisturizers,217,9245.73,216,45.85,0.0707,6,24,3.92,0.0278,21.57,0.5062,0.70
+P0146,Calm Ceramides Treatment,Sierra Skin Co,Moisturizers,101,3558.54,101,37.20,0.0529,2,17,4.29,0.0198,18.99,0.5391,0.33
+P0147,Pure Kaolin Gel,Pacific Ritual,Face Masks,180,5263.04,180,31.63,0.0756,2,29,4.17,0.0111,14.50,0.4959,0.57
+P0148,Calm Centella Ritual,Luma Leaf,Face Masks,38,1308.40,38,37.75,0.0879,0,2,4.50,0.0000,14.30,0.4154,0.11
+P0149,Dew Vitamin Elixir,Juniper Lab,Serums,144,4907.63,144,37.72,0.0965,6,14,4.07,0.0417,15.46,0.4537,0.44
+P0150,Lunar Growth Repair,Juniper Lab,Anti-Aging Products,245,26366.29,245,111.65,0.0361,8,32,4.56,0.0327,62.31,0.5790,1.07
+P0151,Fresh Copper Essence,Sierra Skin Co,Serums,283,17282.74,283,66.26,0.0783,11,44,4.05,0.0389,31.94,0.5230,1.05
+P0152,Clear Shea Treatment,Sunlit Science,Moisturizers,200,10141.96,200,54.83,0.0752,5,36,4.44,0.0250,30.10,0.5936,0.72
+P0153,Radiant Salicylic Complex,Halo Harbor,Acne Treatments,1337,33773.58,1328,26.62,0.0511,57,339,3.91,0.0429,15.77,0.6243,4.64
+P0154,Velvet Zinc Essence,Juniper Lab,Sunscreens,255,5815.84,221,24.69,0.0734,8,18,3.67,0.0362,11.96,0.5243,0.70
+P0155,Clear Rice Shield,Pure Mesa,Toners,358,11442.47,302,33.14,0.0359,2,33,4.64,0.0066,14.99,0.4691,1.06
+P0156,Radiant Azelaic Repair,Coast & Glow,Acne Treatments,267,12480.53,267,49.20,0.0499,14,32,3.91,0.0524,28.12,0.6017,0.89
+P0157,Cloud Tea Complex,DermaBloom,Acne Treatments,131,1789.32,131,14.17,0.0360,5,15,4.20,0.0382,7.57,0.5541,0.36
+P0158,Hydra Oat Veil,Velvet Aloe,Face Masks,112,1700.74,112,16.74,0.0929,4,23,4.57,0.0357,6.61,0.4350,0.35
+P0159,Calm Copper Gel,Velvet Aloe,Serums,201,6292.60,201,34.28,0.0868,11,28,4.29,0.0547,12.87,0.4110,0.63
+P0160,Velvet PHA Repair,Golden State Skin,Toners,442,7904.23,384,18.48,0.0336,9,45,4.29,0.0234,11.43,0.6393,1.23
+P0161,Hydra Benzoyl Mist,Golden State Skin,Acne Treatments,1563,64776.64,1553,43.49,0.0471,61,381,4.07,0.0393,17.95,0.4332,5.79
+P0162,Pure Enzymes Veil,DermaBloom,Face Masks,121,5413.72,121,48.67,0.0807,3,7,3.86,0.0248,23.41,0.5233,0.37
+P0163,Renew Oat Mist,Luma Leaf,Face Masks,86,1542.79,86,19.32,0.0714,3,12,4.58,0.0349,11.31,0.6304,0.25
+P0164,Velvet Titanium Veil,Juniper Lab,Sunscreens,71,2414.37,60,37.42,0.0922,2,11,4.09,0.0333,16.68,0.4904,0.23
+P0165,Calm Ceramides Repair,Sunlit Science,Cleansers,1263,16355.92,1096,13.58,0.0478,17,161,4.26,0.0155,5.41,0.4178,3.52
+P0166,Dew Sulfur Complex,Sierra Skin Co,Acne Treatments,117,3842.60,117,33.89,0.0309,5,13,4.46,0.0427,20.40,0.6212,0.36
+P0167,Pure Peptides Treatment,Terra Dew,Eye Creams,25,1848.22,25,78.95,0.0636,0,2,4.50,0.0000,33.86,0.4580,0.09
+P0168,Cloud Vitamin Complex,Sunlit Science,Serums,1438,88629.54,1417,71.07,0.1328,40,340,3.95,0.0282,33.44,0.5426,5.77
+P0169,Clear Retinol Shield,Halo Harbor,Anti-Aging Products,15,903.54,15,63.72,0.0547,1,1,5.00,0.0667,31.56,0.5239,0.05
+P0170,Radiant Aloe Veil,Terra Dew,Cleansers,682,16214.75,590,25.00,0.0495,17,66,3.97,0.0288,13.45,0.5655,1.95
+P0171,Clear Ceramides Mist,Juniper Lab,Moisturizers,177,5846.95,176,35.34,0.0653,4,15,4.47,0.0227,15.68,0.4748,0.52
+P0172,Velvet Vitamin Treatment,Pacific Ritual,Sunscreens,239,8092.77,210,36.64,0.0760,10,25,4.32,0.0476,20.84,0.6155,0.73
+P0173,Hydra Copper Shield,Sierra Skin Co,Serums,1135,123651.38,1132,117.24,0.0708,30,183,4.39,0.0265,44.50,0.4085,5.13
+P0174,Velvet Hyaluronic Ritual,Sierra Skin Co,Moisturizers,137,8506.18,136,66.49,0.0662,3,16,4.00,0.0221,25.38,0.4088,0.49
+P0175,Pure Kaolin Gel,DermaBloom,Face Masks,166,8820.44,166,57.65,0.0783,4,25,4.68,0.0241,24.73,0.4653,0.59
+P0176,Velvet Rice Elixir,Terra Dew,Cleansers,634,7832.14,538,12.96,0.0480,15,66,4.41,0.0279,6.36,0.5151,1.71
+P0177,Cloud Alpha Shield,Sunlit Science,Serums,737,38398.58,735,56.71,0.0813,20,105,4.25,0.0272,30.89,0.5929,2.58
+P0178,Cloud Ceramides Shield,DermaBloom,Cleansers,441,8351.06,371,19.70,0.0389,5,49,4.59,0.0135,10.19,0.5379,1.25
+P0179,Cloud CoQ10 Mist,Coast & Glow,Anti-Aging Products,21548,2102326.56,20205,107.28,0.0906,783,5255,4.04,0.0388,44.88,0.4601,100.00
+P0180,Pure Witch Complex,Pure Mesa,Toners,921,26197.17,788,29.51,0.0370,17,122,3.84,0.0216,15.93,0.5602,2.82
+P0181,Calm Peptides Ritual,DermaBloom,Eye Creams,582,39880.94,576,72.32,0.0525,17,61,4.11,0.0295,38.29,0.5588,2.11
+P0182,Velvet Retinol Shield,Velvet Aloe,Anti-Aging Products,25,1998.64,25,94.50,0.1540,1,2,4.50,0.0400,28.12,0.3517,0.09
+P0183,Lunar Caffeine Elixir,Halo Harbor,Eye Creams,286,18829.68,285,73.50,0.1043,7,74,3.66,0.0246,33.71,0.5120,1.19
+P0184,Clear Vitamin Treatment,Sunlit Science,Eye Creams,1922,99994.40,1871,57.85,0.1007,56,299,4.42,0.0299,22.09,0.4245,6.82
+P0185,Renew Hyaluronic Gel,Terra Dew,Serums,890,84313.55,887,102.08,0.0720,45,129,3.89,0.0507,42.01,0.4435,3.75
+P0186,Cloud Avobenzone Gel,Luma Leaf,Sunscreens,69,3151.43,63,49.77,0.0735,2,6,4.67,0.0317,20.62,0.4515,0.22
+P0187,Renew Oat Drops,Halo Harbor,Face Masks,36,923.89,36,28.48,0.0989,0,4,3.75,0.0000,13.87,0.5406,0.11
+P0188,Radiant Rice Ritual,Halo Harbor,Cleansers,102,1163.99,92,12.21,0.0639,1,12,3.83,0.0109,6.30,0.5522,0.28
+P0189,Glow Squalane Elixir,Pure Mesa,Moisturizers,104,2306.05,104,24.13,0.0811,4,12,4.50,0.0385,10.66,0.4809,0.30
+P0190,Glow Alpha Ritual,Pacific Ritual,Serums,73,2790.34,73,42.62,0.1032,2,5,4.60,0.0274,20.32,0.5317,0.22
+P0191,Fresh Copper Veil,Sunlit Science,Serums,139,6198.02,139,49.92,0.1068,3,26,3.96,0.0216,21.47,0.4815,0.49
+P0192,Cloud Caffeine Elixir,Sierra Skin Co,Eye Creams,370,9334.06,365,27.23,0.0736,8,53,3.98,0.0219,15.17,0.6012,1.13
+P0193,Fresh Vitamin Essence,DermaBloom,Serums,6,465.08,6,94.53,0.1800,0,2,4.00,0.0000,24.65,0.3181,0.03
+P0194,Dew Green Veil,Velvet Aloe,Cleansers,234,4161.47,196,18.72,0.0515,3,22,4.36,0.0153,8.79,0.4945,0.64
+P0195,Fresh Ceramides Veil,Golden State Skin,Cleansers,229,3368.61,196,15.40,0.0461,11,17,3.53,0.0561,7.33,0.4983,0.60
+P0196,Lunar Alpha Essence,Luma Leaf,Serums,184,9244.84,184,55.09,0.0880,7,28,3.89,0.0380,26.63,0.5301,0.64
+P0197,Velvet Rice Drops,Halo Harbor,Cleansers,34,735.40,32,25.21,0.1306,0,4,4.25,0.0000,12.53,0.5793,0.10
+P0198,Velvet Shea Drops,Juniper Lab,Moisturizers,276,16287.01,275,63.51,0.0708,5,38,4.45,0.0182,31.11,0.5272,0.99
+P0199,Fresh Hyaluronic Lotion,Halo Harbor,Serums,184,17771.18,184,105.26,0.0824,7,27,3.44,0.0380,58.27,0.6033,0.78
+P0200,Velvet Green Ritual,Velvet Aloe,Cleansers,120,1901.49,99,16.73,0.0575,0,12,4.33,0.0000,8.89,0.5608,0.33
+P0201,Renew Niacinamide Gel,Pure Mesa,Serums,97,6041.64,97,66.64,0.0654,3,17,4.24,0.0309,33.19,0.5330,0.37
+P0202,Glow Zinc Complex,Velvet Aloe,Sunscreens,87,3301.38,73,40.27,0.0558,2,11,4.55,0.0274,23.86,0.6287,0.28
+P0203,Pure Bakuchiol Repair,Golden State Skin,Anti-Aging Products,14,1007.52,14,78.96,0.0886,0,4,4.00,0.0000,32.98,0.4582,0.06
+P0204,Radiant Ceramides Ritual,Sunlit Science,Moisturizers,163,5508.91,163,35.72,0.0538,3,24,4.25,0.0184,18.97,0.5612,0.52
+P0205,Pure Niacinamide Essence,Pacific Ritual,Serums,956,42434.32,946,51.76,0.1424,32,229,4.72,0.0338,17.84,0.4019,3.57
+P0206,Fresh Squalane Veil,Terra Dew,Moisturizers,169,5482.59,169,35.15,0.0770,7,24,4.46,0.0414,13.03,0.4017,0.54
+P0207,Cloud Hyaluronic Complex,Pure Mesa,Moisturizers,70,3908.56,69,59.51,0.0617,5,8,3.38,0.0725,28.20,0.5050,0.24
+P0208,Hydra Hyaluronic Gel,DermaBloom,Serums,3333,184193.52,3310,60.53,0.0870,102,781,3.97,0.0308,31.82,0.5759,13.00
+P0209,Hydra Hyaluronic Ritual,Halo Harbor,Moisturizers,248,13254.16,248,57.39,0.0688,5,29,4.62,0.0202,29.46,0.5513,0.85
+P0210,Glow CoQ10 Complex,Juniper Lab,Anti-Aging Products,129,14456.72,129,115.68,0.0312,2,17,4.24,0.0155,53.63,0.4785,0.57
+P0211,Dew Peptides Ritual,Luma Leaf,Anti-Aging Products,154,19274.05,153,129.14,0.0308,4,20,4.55,0.0261,75.65,0.6044,0.72
+P0212,Fresh Kaolin Shield,Halo Harbor,Face Masks,173,4346.11,173,27.35,0.0814,4,32,4.62,0.0231,11.14,0.4435,0.56
+P0213,Radiant Centella Gel,Terra Dew,Toners,261,5238.88,223,20.72,0.0321,8,27,4.00,0.0359,9.31,0.4639,0.74
+P0214,Fresh PHA Elixir,DermaBloom,Toners,108,2551.10,97,25.49,0.0738,3,12,4.25,0.0309,10.54,0.4463,0.31
+P0215,Glow Peptides Mist,Luma Leaf,Moisturizers,150,3055.95,150,22.05,0.0761,1,27,3.85,0.0067,9.53,0.4679,0.47
+P0216,Clear CoQ10 Mist,Velvet Aloe,Anti-Aging Products,46,5901.69,46,136.11,0.0574,2,10,4.00,0.0435,52.12,0.4062,0.23
+P0217,Renew Vitamin Essence,Juniper Lab,Serums,65,6855.83,65,115.75,0.0888,0,6,3.83,0.0000,58.63,0.5559,0.27
+P0218,Cloud Vitamin Gel,DermaBloom,Serums,600,43024.59,599,77.77,0.0779,17,105,4.32,0.0284,36.31,0.5063,2.37
+P0219,Calm Titanium Essence,Pure Mesa,Sunscreens,67,1263.52,57,20.37,0.0775,2,4,4.00,0.0351,8.00,0.4241,0.18
+P0220,Fresh Centella Drops,Sunlit Science,Face Masks,73,2499.96,73,36.56,0.0633,2,8,4.25,0.0274,13.91,0.4061,0.22
+P0221,Fresh Titanium Treatment,Sierra Skin Co,Sunscreens,167,4788.88,144,31.07,0.0828,4,18,4.11,0.0278,18.00,0.6276,0.50
+P0222,Radiant Vitamin Lotion,DermaBloom,Sunscreens,154,3168.14,132,22.02,0.0674,4,11,3.73,0.0303,10.77,0.5236,0.42
+P0223,Hydra Ceramides Essence,Terra Dew,Cleansers,118,1504.96,103,14.30,0.1087,3,15,3.93,0.0291,6.28,0.4927,0.33
+P0224,Radiant CoQ10 Repair,Coast & Glow,Anti-Aging Products,15,1856.13,15,134.21,0.0780,0,1,4.00,0.0000,53.20,0.4299,0.07
+P0225,Lunar Retinol Repair,Juniper Lab,Eye Creams,209,12298.74,208,66.88,0.1201,9,21,4.10,0.0433,27.70,0.4706,0.72
+P0226,Renew Bakuchiol Repair,DermaBloom,Anti-Aging Products,1383,67262.05,1355,50.66,0.0400,57,200,3.87,0.0421,23.96,0.4928,4.77
+P0227,Glow Green Elixir,Coast & Glow,Cleansers,8890,191944.27,7511,22.63,0.0458,134,1896,4.36,0.0178,10.04,0.4651,28.98
+P0228,Dew Green Veil,Sierra Skin Co,Cleansers,181,2604.75,153,15.00,0.0367,2,20,3.85,0.0131,8.91,0.6192,0.50
+P0229,Hydra Caffeine Lotion,Velvet Aloe,Eye Creams,21,1002.39,21,53.32,0.1048,2,2,4.00,0.0952,26.29,0.5508,0.07
+P0230,Dew Alpha Drops,Pacific Ritual,Serums,951,104067.80,949,117.85,0.0715,36,146,4.20,0.0379,53.48,0.4887,4.27
+P0231,Radiant Rice Complex,Luma Leaf,Cleansers,3445,97577.06,2954,29.83,0.0502,53,730,4.42,0.0179,13.65,0.4821,11.60
+P0232,Fresh Salicylic Repair,Golden State Skin,Acne Treatments,1013,18215.97,1009,18.71,0.0388,31,158,4.10,0.0307,10.65,0.5924,3.02
+P0233,Pure Shea Elixir,Sierra Skin Co,Moisturizers,5398,127429.78,5343,25.30,0.0670,134,1395,4.15,0.0251,11.16,0.4726,18.70
+P0234,Lunar Salicylic Veil,DermaBloom,Acne Treatments,232,7572.81,232,34.16,0.0444,9,28,4.00,0.0388,18.21,0.5579,0.72
+P0235,Clear Honey Shield,DermaBloom,Face Masks,51,1361.66,51,29.50,0.0949,0,4,4.75,0.0000,12.84,0.4809,0.14
+P0236,Hydra Ceramides Repair,Juniper Lab,Moisturizers,41,1612.13,41,43.07,0.0871,2,4,4.00,0.0488,20.38,0.5183,0.13
+P0237,Pure Vitamin Gel,DermaBloom,Eye Creams,23,627.76,23,29.78,0.0835,1,4,4.75,0.0435,11.50,0.4215,0.07
+P0238,Hydra Niacinamide Veil,Velvet Aloe,Serums,277,7204.05,277,27.96,0.0698,4,31,3.32,0.0144,15.61,0.6001,0.82
+P0239,Lunar Squalane Elixir,Velvet Aloe,Moisturizers,303,12872.53,302,45.74,0.0712,9,45,3.62,0.0298,16.95,0.3991,1.02
+P0240,Calm Vitamin Treatment,Sunlit Science,Eye Creams,591,36693.17,588,65.53,0.0525,18,76,4.07,0.0306,25.60,0.4123,2.13
+P0241,Cloud Titanium Veil,Pure Mesa,Sunscreens,207,4066.14,184,21.12,0.0710,10,23,4.43,0.0543,10.86,0.5530,0.59
+P0242,Dew Kaolin Gel,Velvet Aloe,Face Masks,161,6466.12,161,44.67,0.1009,5,31,4.68,0.0311,17.39,0.4330,0.56
+P0243,Lunar Bakuchiol Lotion,Luma Leaf,Anti-Aging Products,234,19405.49,234,86.25,0.0385,10,20,4.70,0.0427,44.09,0.5317,0.89
+P0244,Velvet Titanium Ritual,Pacific Ritual,Sunscreens,218,6734.71,187,33.10,0.0670,10,19,4.47,0.0535,16.37,0.5300,0.64
+P0245,Cloud Avobenzone Complex,Luma Leaf,Sunscreens,1515,29993.32,1299,21.83,0.0933,45,281,4.18,0.0346,12.00,0.6060,4.73
+P0246,Fresh Alpha Veil,Luma Leaf,Serums,453,14293.28,453,34.02,0.0725,16,51,4.04,0.0353,12.88,0.4083,1.38
+P0247,Glow CoQ10 Veil,Golden State Skin,Anti-Aging Products,287,22098.73,283,83.20,0.0745,11,43,4.07,0.0389,45.32,0.5886,1.13
+P0248,Velvet Vitamin Elixir,Sunlit Science,Serums,252,25349.77,250,108.62,0.0739,5,26,4.42,0.0200,42.86,0.4261,1.05
+P0249,Pure Rice Mist,Luma Leaf,Toners,97,1375.43,84,14.81,0.0418,0,17,3.94,0.0000,6.84,0.4824,0.29
+P0250,Fresh Niacinamide Shield,Juniper Lab,Serums,198,9184.51,198,49.85,0.0695,2,29,4.07,0.0101,21.95,0.4731,0.68
+P0251,Dew Niacinamide Veil,Terra Dew,Sunscreens,895,19125.95,775,23.06,0.0737,24,110,4.21,0.0310,12.64,0.5915,2.61
+P0252,Hydra Kaolin Shield,Sunlit Science,Face Masks,9256,287825.62,9119,33.70,0.0773,218,2143,4.30,0.0239,13.68,0.4398,32.28
+P0253,Velvet Hyaluronic Veil,Pacific Ritual,Serums,11961,710240.73,11635,65.46,0.0929,393,2845,4.14,0.0338,35.36,0.5955,47.63
+P0254,Pure Hyaluronic Lotion,Golden State Skin,Moisturizers,381,8571.56,381,24.15,0.0684,12,52,4.21,0.0315,10.41,0.4626,1.14
+P0255,Dew Oat Repair,Pacific Ritual,Face Masks,39,2285.40,39,61.37,0.0451,1,4,4.25,0.0256,29.41,0.5019,0.13
+P0256,Velvet Copper Shield,Coast & Glow,Serums,239,11653.11,239,52.39,0.0693,8,24,4.50,0.0335,29.97,0.6146,0.78
+P0257,Velvet Squalane Complex,DermaBloom,Eye Creams,479,26218.83,472,57.66,0.0507,17,57,4.07,0.0360,23.33,0.4262,1.65
+P0258,Lunar Squalane Complex,DermaBloom,Moisturizers,17400,571097.11,16879,35.24,0.0686,443,4141,4.42,0.0262,14.29,0.4354,61.61
+P0259,Cloud Centella Repair,Juniper Lab,Face Masks,188,10642.38,188,61.50,0.0795,3,25,4.04,0.0160,27.01,0.4771,0.66
+P0260,Radiant Vitamin Complex,Juniper Lab,Serums,174,9725.89,174,61.20,0.0867,6,26,4.31,0.0345,30.86,0.5520,0.62
+P0261,Calm Shea Drops,Sunlit Science,Moisturizers,249,7667.50,248,32.88,0.0635,5,28,4.18,0.0202,14.30,0.4645,0.75
+P0262,Hydra Peptides Ritual,DermaBloom,Moisturizers,310,7879.70,310,27.12,0.0627,12,41,3.78,0.0387,15.01,0.5905,0.93
+P0263,Pure Vitamin Essence,Terra Dew,Eye Creams,159,3235.81,159,22.32,0.0882,8,34,3.88,0.0503,8.02,0.3941,0.52
+P0264,Pure Oat Veil,DermaBloom,Face Masks,67,2584.79,67,43.84,0.1200,0,8,4.38,0.0000,18.97,0.4917,0.21
+P0265,Renew Copper Lotion,Juniper Lab,Serums,307,17556.60,307,61.37,0.0681,4,43,4.37,0.0130,25.90,0.4529,1.10
+P0266,Pure Peptides Treatment,Halo Harbor,Moisturizers,190,6246.27,190,35.38,0.0708,2,29,4.41,0.0105,16.08,0.4890,0.61
+P0267,Fresh Rose Repair,Terra Dew,Toners,20012,281844.81,15961,14.86,0.0522,333,4151,4.27,0.0209,7.10,0.5044,62.28
+P0268,Cloud Tea Essence,Sunlit Science,Acne Treatments,129,1747.99,129,14.25,0.0491,6,20,4.15,0.0465,8.50,0.6273,0.37
+P0269,Glow Alpha Elixir,Sunlit Science,Serums,289,13611.69,289,50.64,0.0699,10,40,4.53,0.0346,19.44,0.4127,0.98
+P0270,Hydra Tea Ritual,Golden State Skin,Acne Treatments,221,7252.80,220,34.52,0.0493,5,38,4.58,0.0227,19.05,0.5804,0.73
+P0271,Dew Retinol Shield,Velvet Aloe,Anti-Aging Products,412,28481.20,410,79.64,0.1320,10,86,4.62,0.0244,27.56,0.3987,1.66
+P0272,Renew Centella Treatment,Velvet Aloe,Toners,1110,14502.09,943,14.05,0.0702,24,218,4.01,0.0255,5.27,0.4037,3.39
+P0273,Pure Hyaluronic Elixir,Coast & Glow,Serums,311,28328.39,311,98.94,0.0794,14,40,4.28,0.0450,48.95,0.5374,1.27
+P0274,Renew Niacinamide Lotion,Pacific Ritual,Serums,13820,959166.72,13443,75.03,0.0750,393,3250,4.72,0.0292,35.17,0.5068,57.20
+P0275,Cloud Enzymes Shield,Pacific Ritual,Face Masks,36,1415.69,36,45.92,0.1436,0,9,4.33,0.0000,18.15,0.4617,0.13
+P0276,Pure Squalane Mist,Pure Mesa,Moisturizers,118,2258.81,118,20.83,0.0810,1,19,3.53,0.0085,11.05,0.5774,0.36
+P0277,Hydra Tea Shield,Sierra Skin Co,Acne Treatments,120,6276.38,120,54.82,0.0459,1,12,3.75,0.0083,25.24,0.4826,0.40
+P0278,Glow Ceramides Shield,Pure Mesa,Moisturizers,99,3579.82,99,38.58,0.0627,5,9,4.11,0.0505,18.83,0.5207,0.30
+P0279,Glow Salicylic Treatment,Terra Dew,Cleansers,331,8695.41,289,27.62,0.0480,4,31,3.97,0.0138,16.19,0.6163,0.95
+P0280,Cloud Honey Ritual,Pacific Ritual,Face Masks,18,956.56,18,56.87,0.0656,1,0,,0.0556,25.31,0.4763,0.05
+P0281,Hydra Honey Mist,Halo Harbor,Face Masks,75,1959.42,75,28.58,0.0859,1,9,4.44,0.0133,10.42,0.3987,0.22
+P0282,Clear Green Complex,Juniper Lab,Cleansers,339,8781.19,283,27.11,0.0444,4,39,4.36,0.0141,15.27,0.5896,1.00
+P0283,Renew Ceramides Gel,Pure Mesa,Moisturizers,216,5734.60,216,28.51,0.0688,6,23,4.17,0.0278,16.50,0.6215,0.63
+P0284,Lunar Retinol Shield,Sierra Skin Co,Anti-Aging Products,151,10364.34,151,72.21,0.0495,6,18,4.22,0.0397,41.52,0.6049,0.56
+P0285,Lunar Growth Ritual,Pacific Ritual,Anti-Aging Products,1265,108619.23,1246,89.12,0.0365,32,209,3.95,0.0257,50.59,0.5891,5.25
+P0286,Clear Titanium Gel,Luma Leaf,Sunscreens,1030,26443.30,873,27.69,0.0706,42,219,4.04,0.0481,13.08,0.5096,3.42
+P0287,Calm PHA Treatment,Velvet Aloe,Toners,2699,65709.16,2244,25.27,0.0371,53,393,4.54,0.0236,11.78,0.4837,8.23
+P0288,Glow Niacinamide Treatment,Pure Mesa,Sunscreens,19,774.30,19,43.45,0.0621,0,3,3.33,0.0000,22.83,0.5603,0.06
+P0289,Radiant Oat Shield,Velvet Aloe,Face Masks,45,1268.50,45,31.33,0.1002,2,7,3.86,0.0444,12.81,0.4544,0.14
+P0290,Cloud CoQ10 Shield,Halo Harbor,Anti-Aging Products,61,2912.25,61,53.98,0.1156,1,12,4.50,0.0164,20.93,0.4384,0.22
+P0291,Lunar Titanium Lotion,Velvet Aloe,Sunscreens,298,8459.86,256,30.77,0.0770,12,44,4.41,0.0469,15.96,0.5622,0.93
+P0292,Clear Titanium Repair,Golden State Skin,Sunscreens,1843,67674.21,1594,39.74,0.0756,55,267,4.12,0.0345,20.25,0.5515,5.99
+P0293,Pure Peptides Mist,Coast & Glow,Eye Creams,43,2996.19,43,75.68,0.0793,3,3,4.00,0.0698,36.87,0.5291,0.15
+P0294,Lunar Centella Ritual,Sierra Skin Co,Face Masks,50,2943.65,50,62.63,0.0600,2,5,4.00,0.0400,35.63,0.6053,0.17
+P0295,Lunar CoQ10 Repair,Juniper Lab,Anti-Aging Products,23,2838.52,23,144.75,0.1474,2,4,3.50,0.0870,64.11,0.5195,0.11
+P0296,Calm Rice Elixir,Pacific Ritual,Cleansers,2024,31447.27,1740,16.29,0.0468,37,296,4.42,0.0213,7.71,0.4960,5.88
+P0297,Clear Tea Shield,Golden State Skin,Acne Treatments,186,4238.69,186,24.17,0.0572,10,16,4.62,0.0538,13.00,0.5704,0.52
+P0298,Hydra Caffeine Veil,Sunlit Science,Eye Creams,1254,66570.11,1241,58.57,0.0936,38,296,4.36,0.0306,26.07,0.4910,4.85
+P0299,Glow Vitamin Shield,Halo Harbor,Serums,636,59329.90,631,100.87,0.0752,24,136,4.43,0.0380,50.68,0.5432,2.83
+P0300,Hydra Vitamin Treatment,Sunlit Science,Serums,350,37952.25,350,118.29,0.0833,19,40,4.40,0.0543,43.26,0.3989,1.51

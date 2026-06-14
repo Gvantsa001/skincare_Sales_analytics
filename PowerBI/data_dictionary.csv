@@ -1,0 +1,49 @@
+table_name,column_name,sql_type,description
+Customers,customer_id,varchar(10),Customer primary key
+Customers,customer_name,varchar(100),Synthetic customer full name
+Customers,city,varchar(60),California city
+Customers,state,varchar(20),Always California
+Customers,gender,varchar(30),Synthetic gender
+Customers,age,int,Customer age
+Customers,age_group,varchar(10),Age bucket
+Customers,signup_date,date,Customer signup date
+Customers,acquisition_channel,varchar(40),Marketing acquisition channel
+Customers,customer_segment,varchar(20),"New, Regular, Loyal, or VIP"
+Products,product_id,varchar(10),Product primary key
+Products,product_name,varchar(120),Synthetic product name
+Products,brand,varchar(60),Synthetic skincare brand
+Products,category,varchar(40),Skincare category
+Products,concern,varchar(60),Primary skincare concern
+Products,skin_type,varchar(30),Recommended skin type
+Products,key_ingredient,varchar(60),Hero ingredient
+Products,size,varchar(20),Product size
+Products,mrp,"decimal(12,2)",List price
+Products,cost_price,"decimal(12,2)",Unit cost
+Products,stock_qty,int,Synthetic stock quantity
+Products,launch_date,date,Launch date
+Orders,order_id,varchar(12),Order primary key
+Orders,customer_id,varchar(10),Customer foreign key
+Orders,order_date,date,Order date
+Orders,order_status,varchar(20),"Delivered, Cancelled, or Processing"
+Orders,payment_method,varchar(30),Payment method
+Orders,sales_channel,varchar(30),Sales channel
+Orders,gross_amount,"decimal(12,2)",Order gross amount
+Orders,discount_amount,"decimal(12,2)",Order discount amount
+Orders,shipping_fee,"decimal(12,2)",Shipping fee
+Orders,final_amount,"decimal(12,2)",Final paid amount
+Orders,delivered_date,date,Delivery date for delivered orders
+Order_Items,order_item_id,varchar(14),Order item primary key
+Order_Items,order_id,varchar(12),Order foreign key
+Order_Items,product_id,varchar(10),Product foreign key
+Order_Items,quantity,int,Units purchased
+Order_Items,unit_price,"decimal(12,2)",Unit selling price
+Order_Items,discount_pct,"decimal(6,4)",Line discount percent
+Order_Items,item_total,"decimal(12,2)",Line total after discount
+Reviews,review_id,varchar(12),Review primary key
+Reviews,rating,int,Rating from 1 to 5
+Returns,return_id,varchar(12),Return primary key
+Returns,return_reason,varchar(40),Return reason
+Daily_Sales_Features,date,date,Daily feature date
+Monthly_Sales_Features,month_start,date,Month-start feature date
+Customer_Features,customer_lifetime_value,"decimal(12,2)",Customer total sales
+Product_Features,popularity_score,"decimal(8,2)",Normalized long-tail popularity score

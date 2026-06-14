@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="86" y="30" font-size="20" font-family="Arial" font-weight="700">Total Sales by Category</text>
+<line x1="86" y1="326" x2="876" y2="326" stroke="#333"/>
+<line x1="86" y1="52" x2="86" y2="326" stroke="#333"/>
+<text x="78" y="56" text-anchor="end" font-size="11">$3,450,657</text>
+<rect x="86.0" y="275.4" width="78.9" height="50.6" fill="#1f77b4"/><rect x="174.9" y="125.3" width="78.9" height="200.7" fill="#2ca02c"/><rect x="263.8" y="240.5" width="78.9" height="85.5" fill="#ff7f0e"/><rect x="352.7" y="244.6" width="78.9" height="81.4" fill="#9467bd"/><rect x="441.6" y="284.2" width="78.9" height="41.8" fill="#17becf"/><rect x="530.4" y="174.7" width="78.9" height="151.3" fill="#8c564b"/><rect x="619.3" y="52.0" width="78.9" height="274.0" fill="#d62728"/><rect x="708.2" y="190.6" width="78.9" height="135.4" fill="#1f77b4"/><rect x="797.1" y="280.6" width="78.9" height="45.4" fill="#2ca02c"/>
+<text transform="translate(125.4,348) rotate(-35)" text-anchor="end" font-size="11">Acne Treatments</text><text transform="translate(214.3,348) rotate(-35)" text-anchor="end" font-size="11">Anti-Aging Products</text><text transform="translate(303.2,348) rotate(-35)" text-anchor="end" font-size="11">Cleansers</text><text transform="translate(392.1,348) rotate(-35)" text-anchor="end" font-size="11">Eye Creams</text><text transform="translate(481.0,348) rotate(-35)" text-anchor="end" font-size="11">Face Masks</text><text transform="translate(569.9,348) rotate(-35)" text-anchor="end" font-size="11">Moisturizers</text><text transform="translate(658.8,348) rotate(-35)" text-anchor="end" font-size="11">Serums</text><text transform="translate(747.7,348) rotate(-35)" text-anchor="end" font-size="11">Sunscreens</text><text transform="translate(836.6,348) rotate(-35)" text-anchor="end" font-size="11">Toners</text>
+</svg>

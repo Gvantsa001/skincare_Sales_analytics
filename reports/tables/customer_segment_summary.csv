@@ -1,0 +1,5 @@
+customer_segment,customers,total_orders,total_sales,return_count,avg_customer_value
+Loyal,1000,42042,4189685.26,2713,4189.69
+New,1000,9984,814736.72,487,814.74
+Regular,2500,55652,4582879.27,2788,1833.15
+VIP,500,35543,4181769.18,2613,8363.54

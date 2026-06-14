@@ -1,0 +1,28 @@
+promotion_id,promotion_name,start_date,end_date,discount_pct,applicable_categories
+PR001,2023 New Year Skin Reset,2023-01-01,2023-01-08,0.18,Moisturizers|Serums|Anti-Aging Products
+PR002,2023 Valentine Glow Event,2023-02-10,2023-02-14,0.16,Serums|Face Masks|Eye Creams
+PR003,2023 Spring Routine Sale,2023-03-20,2023-03-27,0.14,Cleansers|Toners|Serums
+PR004,2023 Memorial Day SPF Push,2023-05-24,2023-05-31,0.18,Sunscreens
+PR005,2023 Summer SPF Stock Up,2023-06-15,2023-07-08,0.20,Sunscreens|Moisturizers
+PR006,2023 Labor Day Routine Refresh,2023-09-01,2023-09-07,0.16,all
+PR007,2023 Singles Day Preview,2023-11-10,2023-11-15,0.18,Serums|Anti-Aging Products
+PR008,2023 Black Friday Cyber Week,2023-11-22,2023-11-30,0.30,all
+PR009,2023 Holiday Gift Glow,2023-12-05,2023-12-20,0.24,Face Masks|Serums|Eye Creams|Anti-Aging Products
+PR010,2024 New Year Skin Reset,2024-01-01,2024-01-08,0.18,Moisturizers|Serums|Anti-Aging Products
+PR011,2024 Valentine Glow Event,2024-02-10,2024-02-14,0.16,Serums|Face Masks|Eye Creams
+PR012,2024 Spring Routine Sale,2024-03-20,2024-03-27,0.14,Cleansers|Toners|Serums
+PR013,2024 Memorial Day SPF Push,2024-05-24,2024-05-31,0.18,Sunscreens
+PR014,2024 Summer SPF Stock Up,2024-06-15,2024-07-08,0.20,Sunscreens|Moisturizers
+PR015,2024 Labor Day Routine Refresh,2024-09-01,2024-09-07,0.16,all
+PR016,2024 Singles Day Preview,2024-11-10,2024-11-15,0.18,Serums|Anti-Aging Products
+PR017,2024 Black Friday Cyber Week,2024-11-22,2024-11-30,0.30,all
+PR018,2024 Holiday Gift Glow,2024-12-05,2024-12-20,0.24,Face Masks|Serums|Eye Creams|Anti-Aging Products
+PR019,2025 New Year Skin Reset,2025-01-01,2025-01-08,0.18,Moisturizers|Serums|Anti-Aging Products
+PR020,2025 Valentine Glow Event,2025-02-10,2025-02-14,0.16,Serums|Face Masks|Eye Creams
+PR021,2025 Spring Routine Sale,2025-03-20,2025-03-27,0.14,Cleansers|Toners|Serums
+PR022,2025 Memorial Day SPF Push,2025-05-24,2025-05-31,0.18,Sunscreens
+PR023,2025 Summer SPF Stock Up,2025-06-15,2025-07-08,0.20,Sunscreens|Moisturizers
+PR024,2025 Labor Day Routine Refresh,2025-09-01,2025-09-07,0.16,all
+PR025,2025 Singles Day Preview,2025-11-10,2025-11-15,0.18,Serums|Anti-Aging Products
+PR026,2025 Black Friday Cyber Week,2025-11-22,2025-11-30,0.30,all
+PR027,2025 Holiday Gift Glow,2025-12-05,2025-12-20,0.24,Face Masks|Serums|Eye Creams|Anti-Aging Products
