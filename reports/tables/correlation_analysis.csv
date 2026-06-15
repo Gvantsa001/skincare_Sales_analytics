@@ -1,0 +1,10 @@
+analysis,variable_1,variable_2,correlation,direction,strength,business_question
+Daily Discount vs Daily Sales,total_discount,total_sales,0.7493,Positive,Strong,Do higher discounts increase daily sales?
+Daily Orders vs Daily Sales,total_orders,total_sales,0.9694,Positive,Strong,Do more orders lead to higher revenue?
+Product Discount vs Product Revenue,avg_discount_pct,total_sales,0.0420,Positive,Very weak,Do discounted products generate more revenue?
+Product Price vs Units Sold,avg_unit_price,units_sold,-0.0156,Negative,Very weak,Do expensive products sell fewer units?
+Product Rating vs Return Rate,avg_rating,return_rate_by_order,0.0674,Positive,Very weak,Do lower-rated products have higher return rates?
+Product Rating vs Product Revenue,avg_rating,total_sales,0.0500,Positive,Very weak,Do higher-rated products generate more revenue?
+Popularity Score vs Revenue,popularity_score,total_sales,0.9047,Positive,Strong,Does product popularity explain revenue?
+Customer Orders vs Customer Lifetime Value,total_orders,customer_lifetime_value,0.9873,Positive,Strong,Do frequent customers generate higher lifetime value?
+Customer Recency vs Revenue,recency_days,total_sales,-0.0883,Negative,Very weak,Do recently active customers generate more revenue?
