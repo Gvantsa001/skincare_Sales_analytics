@@ -3,11 +3,11 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from sales_forecasting.analytics import run_analytics
-from sales_forecasting.cleaning import clean_and_process
-from sales_forecasting.forecasting import run_forecasting
-from sales_forecasting.powerbi_assets import write_powerbi_assets
-from sales_forecasting.validation import validate_data
+from src.sales_forecasting.analytics import run_analytics
+from src.sales_forecasting.cleaning import clean_and_process
+from src.sales_forecasting.forecasting import run_forecasting
+from src.sales_forecasting.powerbi_assets import write_powerbi_assets
+from src.sales_forecasting.validation import validate_data
 
 
 def main() -> None:

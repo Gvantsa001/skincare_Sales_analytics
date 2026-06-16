@@ -1,0 +1,38 @@
+month_start,model_name,forecast_sales,notes
+2026-01-01,Seasonal Naive,438573.48,previous-year same-month sales
+2026-02-01,Seasonal Naive,317608.65,previous-year same-month sales
+2026-03-01,Seasonal Naive,370121.92,previous-year same-month sales
+2026-04-01,Seasonal Naive,306426.19,previous-year same-month sales
+2026-05-01,Seasonal Naive,414406.36,previous-year same-month sales
+2026-06-01,Seasonal Naive,441386.64,previous-year same-month sales
+2026-07-01,Seasonal Naive,410512.96,previous-year same-month sales
+2026-08-01,Seasonal Naive,353316.52,previous-year same-month sales
+2026-09-01,Seasonal Naive,348248.69,previous-year same-month sales
+2026-10-01,Seasonal Naive,363998.97,previous-year same-month sales
+2026-11-01,Seasonal Naive,722167.95,previous-year same-month sales
+2026-12-01,Seasonal Naive,667568.36,previous-year same-month sales
+2026-01-01,ARIMA,671197.25,"standard-library ARIMA(1,1,0) fallback; phi=-0.066"
+2026-02-01,ARIMA,670956.06,"standard-library ARIMA(1,1,0) fallback; phi=-0.066"
+2026-03-01,ARIMA,670972.09,"standard-library ARIMA(1,1,0) fallback; phi=-0.066"
+2026-04-01,ARIMA,670971.03,"standard-library ARIMA(1,1,0) fallback; phi=-0.066"
+2026-05-01,ARIMA,670971.10,"standard-library ARIMA(1,1,0) fallback; phi=-0.066"
+2026-06-01,ARIMA,670971.09,"standard-library ARIMA(1,1,0) fallback; phi=-0.066"
+2026-07-01,ARIMA,670971.09,"standard-library ARIMA(1,1,0) fallback; phi=-0.066"
+2026-08-01,ARIMA,670971.09,"standard-library ARIMA(1,1,0) fallback; phi=-0.066"
+2026-09-01,ARIMA,670971.09,"standard-library ARIMA(1,1,0) fallback; phi=-0.066"
+2026-10-01,ARIMA,670971.09,"standard-library ARIMA(1,1,0) fallback; phi=-0.066"
+2026-11-01,ARIMA,670971.09,"standard-library ARIMA(1,1,0) fallback; phi=-0.066"
+2026-12-01,ARIMA,670971.09,"standard-library ARIMA(1,1,0) fallback; phi=-0.066"
+2026-01-01,Holt-Winters Exponential Smoothing,438002.21,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05"
+2026-02-01,Holt-Winters Exponential Smoothing,385995.54,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05"
+2026-03-01,Holt-Winters Exponential Smoothing,431901.24,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05"
+2026-04-01,Holt-Winters Exponential Smoothing,370501.44,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05"
+2026-05-01,Holt-Winters Exponential Smoothing,449473.17,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05"
+2026-06-01,Holt-Winters Exponential Smoothing,493875.40,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05"
+2026-07-01,Holt-Winters Exponential Smoothing,473278.33,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05"
+2026-08-01,Holt-Winters Exponential Smoothing,429355.70,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05"
+2026-09-01,Holt-Winters Exponential Smoothing,446937.72,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05"
+2026-10-01,Holt-Winters Exponential Smoothing,432427.89,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05"
+2026-11-01,Holt-Winters Exponential Smoothing,749289.43,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05"
+2026-12-01,Holt-Winters Exponential Smoothing,697901.51,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05"
+,Prophet,,skipped: ModuleNotFoundError

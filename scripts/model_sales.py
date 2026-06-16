@@ -3,7 +3,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from sales_forecasting.forecasting import run_forecasting
+from src.sales_forecasting.forecasting import run_forecasting
 
 
 if __name__ == "__main__":
