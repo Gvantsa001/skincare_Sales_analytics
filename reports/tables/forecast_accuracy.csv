@@ -1,5 +1,4 @@
 model_name,train_start,train_end,test_start,test_end,mae,rmse,mape,notes
 Seasonal Naive,2023-01-01,2025-06-01,2025-07-01,2025-12-01,46715.19,48197.32,10.37,previous-year same-month sales
 ARIMA,2023-01-01,2025-06-01,2025-07-01,2025-12-01,132254.05,160204.99,25.34,"standard-library ARIMA(1,1,0) fallback; phi=-0.055"
-Holt-Winters Exponential Smoothing,2023-01-01,2025-06-01,2025-07-01,2025-12-01,26125.55,28806.53,6.32,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05"
-Prophet,2023-01-01,2025-06-01,2025-07-01,2025-12-01,,,,skipped: ModuleNotFoundError
+Holt-Winters Exponential Smoothing,2023-01-01,2025-06-01,2025-07-01,2025-12-01,26125.55,28806.53,6.32,"additive Holt-Winters alpha=0.25, beta=0.03, gamma=0.05
