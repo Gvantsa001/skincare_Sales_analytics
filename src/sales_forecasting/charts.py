@@ -152,3 +152,85 @@ def png_bar_chart(path: Path, bars: list[tuple[str, float]], width: int = 900, h
         + chunk(b"IEND", b"")
     )
     path.write_bytes(png)
+
+def svg_scatter_chart(
+            path: Path,
+            points: list[tuple[float, float]],
+            title: str,
+            x_label: str,
+            y_label: str,
+            width: int = 900,
+            height: int = 500
+    ) -> None:
+        path.parent.mkdir(parents=True, exist_ok=True)
+
+        margin_left, margin_right = 70, 30
+        margin_top, margin_bottom = 50, 60
+
+        plot_w = width - margin_left - margin_right
+        plot_h = height - margin_top - margin_bottom
+
+        xs = [p[0] for p in points]
+        ys = [p[1] for p in points]
+
+        min_x, max_x = min(xs), max(xs)
+        min_y, max_y = min(ys), max(ys)
+
+        if max_x == min_x:
+            max_x += 1
+
+        if max_y == min_y:
+            max_y += 1
+
+        circles = []
+
+        for x, y in points:
+            cx = margin_left + (x - min_x) / (max_x - min_x) * plot_w
+            cy = margin_top + (max_y - y) / (max_y - min_y) * plot_h
+
+            circles.append(
+                f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="4" fill="#1f77b4" opacity="0.7"/>'
+            )
+
+        svg = f"""
+    <svg xmlns="http://www.w3.org/2000/svg"
+         width="{width}"
+         height="{height}">
+
+    <rect width="100%" height="100%" fill="white"/>
+
+    <text x="{margin_left}" y="30"
+          font-size="20"
+          font-weight="bold">
+    {title}
+    </text>
+
+    <line x1="{margin_left}"
+          y1="{height - margin_bottom}"
+          x2="{width - margin_right}"
+          y2="{height - margin_bottom}"
+          stroke="black"/>
+
+    <line x1="{margin_left}"
+          y1="{margin_top}"
+          x2="{margin_left}"
+          y2="{height - margin_bottom}"
+          stroke="black"/>
+
+    {''.join(circles)}
+
+    <text x="{width // 2}"
+          y="{height - 15}"
+          text-anchor="middle">
+    {x_label}
+    </text>
+
+    <text transform="translate(20,{height // 2}) rotate(-90)"
+          text-anchor="middle">
+    {y_label}
+    </text>
+
+    </svg>
+    """
+
+        path.write_text(svg, encoding="utf-8")

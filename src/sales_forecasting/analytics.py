@@ -3,7 +3,7 @@ from __future__ import annotations
 import math
 from collections import defaultdict
 
-from .charts import svg_bar_chart, svg_line_chart
+from .charts import svg_bar_chart, svg_line_chart, svg_scatter_chart
 from .config import FIGURES_DIR, PROCESSED_DIR, RAW_DIR, TABLES_DIR, ensure_directories
 from .io_utils import as_float, as_int, money, read_csv, write_csv
 
@@ -489,4 +489,16 @@ def run_analytics() -> dict[str, int]:
         "Total Sales by Category",
     )
 
+    svg_scatter_chart(
+        FIGURES_DIR / "discount_vs_sales.svg",
+        [
+            (as_float(row["total_discount"]), as_float(row["total_sales"]))
+            for row in daily
+            if as_float(row["total_sales"]) > 0
+        ],
+        "Discount vs Sales",
+        "Total Discount",
+        "Total Sales",
+    )
     return counts
+
