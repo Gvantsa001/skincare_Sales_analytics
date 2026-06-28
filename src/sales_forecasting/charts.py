@@ -8,150 +8,187 @@ from pathlib import Path
 PALETTE = ["#1f77b4", "#2ca02c", "#ff7f0e", "#9467bd", "#17becf", "#8c564b", "#d62728"]
 
 
-def svg_line_chart(path: Path, points: list[tuple[str, float]], title: str, width: int = 1100, height: int = 420) -> None:
+def svg_line_chart(
+        path: Path,
+        actual_points: list[tuple[str, float]],
+        models_forecasts: dict[str, list[tuple[str, float]]],
+        title: str,
+        width: int = 1100,
+        height: int = 450,
+) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    margin_left, margin_right, margin_top, margin_bottom = 70, 24, 48, 54
+
+    margin_left, margin_right, margin_top, margin_bottom = 70, 40, 50, 80
     plot_w = width - margin_left - margin_right
     plot_h = height - margin_top - margin_bottom
-    values = [value for _, value in points]
-    min_v = min(values)
-    max_v = max(values)
+
+    # ვაგროვებთ ყველა მნიშვნელობას მაქსიმუმისა და მინიმუმის დასადგენად
+    all_values = [v for _, v in actual_points]
+    for pts in models_forecasts.values():
+        all_values.extend([v for _, v in pts if v is not None])
+
+    if not all_values:
+        return
+
+    min_v, max_v = min(all_values), max(all_values)
     if max_v == min_v:
         max_v += 1
-    coords = []
-    for idx, (_, value) in enumerate(points):
-        x = margin_left + (idx / max(1, len(points) - 1)) * plot_w
-        y = margin_top + (max_v - value) / (max_v - min_v) * plot_h
-        coords.append(f"{x:.1f},{y:.1f}")
-    tick_labels = []
-    for idx in [0, len(points) // 4, len(points) // 2, (len(points) * 3) // 4, len(points) - 1]:
-        label = points[idx][0]
-        x = margin_left + (idx / max(1, len(points) - 1)) * plot_w
-        tick_labels.append(f'<text x="{x:.1f}" y="{height - 20}" text-anchor="middle" font-size="11">{label}</text>')
+
+    total_len = len(actual_points)
+
+    def get_coords(points):
+        coords = []
+        for idx, (_, value) in enumerate(points):
+            if value is None:
+                continue
+            x = margin_left + (idx / max(1, total_len - 1)) * plot_w
+            y = margin_top + (max_v - value) / (max_v - min_v) * plot_h
+            coords.append(f"{x:.1f},{y:.1f}")
+        return coords
+
+    # Actual ხაზის კოორდინატები
+    actual_coords = get_coords(actual_points)
+
+    # ფერების პალიტრა მოდელებისთვის
+    colors = ["#ff7f0e", "#2ca02c", "#9467bd", "#17becf"]
+
+    lines_svg = []
+    legend_svg = []
+
+    # Actual-ის დამატება ლეგენდაში
+    legend_svg.append(
+        f'<text x="{margin_left}" y="{height - 25}" fill="#1f77b4" font-weight="bold" font-size="12">● Actual</text>')
+
+    # მოდელების ხაზების გენერაცია
+    for c_idx, (model_name, points) in enumerate(models_forecasts.items()):
+        if not points:
+            continue
+        coords = get_coords(points)
+        color = colors[c_idx % len(colors)]
+
+        # ვხატავთ წყვეტილ (dashed) ხაზს მოდელებისთვის
+        lines_svg.append(
+            f'<polyline fill="none" stroke="{color}" stroke-width="2.5" stroke-dasharray="5 3" points="{" ".join(coords)}"/>'
+        )
+
+        # ლეგენდის პოზიციის გამოთვლა (ჰორიზონტალურად ჩამწკრივება)
+        leg_x = margin_left + 120 + (c_idx * 180)
+        legend_svg.append(
+            f'<text x="{leg_x}" y="{height - 25}" fill="{color}" font-weight="bold" font-size="12">● {model_name}</text>'
+        )
+
+    # ბადისა (Grid) და თიქების დამზადება
     grid = []
     for i in range(5):
         y = margin_top + i * plot_h / 4
-        value = max_v - i * (max_v - min_v) / 4
-        grid.append(f'<line x1="{margin_left}" y1="{y:.1f}" x2="{width - margin_right}" y2="{y:.1f}" stroke="#e8e8e8"/>')
-        grid.append(f'<text x="{margin_left - 8}" y="{y + 4:.1f}" text-anchor="end" font-size="11">${value:,.0f}</text>')
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
-<rect width="100%" height="100%" fill="#ffffff"/>
-<text x="{margin_left}" y="28" font-size="20" font-family="Arial" font-weight="700">{title}</text>
-{''.join(grid)}
-<polyline fill="none" stroke="{PALETTE[0]}" stroke-width="2.4" points="{' '.join(coords)}"/>
-<line x1="{margin_left}" y1="{height - margin_bottom}" x2="{width - margin_right}" y2="{height - margin_bottom}" stroke="#333"/>
-<line x1="{margin_left}" y1="{margin_top}" x2="{margin_left}" y2="{height - margin_bottom}" stroke="#333"/>
-{''.join(tick_labels)}
-</svg>
-'''
+        val = max_v - i * (max_v - min_v) / 4
+        grid.append(
+            f'<line x1="{margin_left}" y1="{y:.1f}" x2="{width - margin_right}" y2="{y:.1f}" stroke="#e8e8e8"/>')
+        grid.append(f'<text x="{margin_left - 8}" y="{y + 4:.1f}" text-anchor="end" font-size="11">${val:,.0f}</text>')
+
+    tick_labels = []
+    tick_indices = [0, total_len // 4, total_len // 2, (total_len * 3) // 4, total_len - 1]
+    for idx in sorted(list(set(tick_indices))):
+        if idx < total_len:
+            x = margin_left + (idx / max(1, total_len - 1)) * plot_w
+            tick_labels.append(
+                f'<text x="{x:.1f}" y="{height - 55}" text-anchor="middle" font-size="11">{actual_points[idx][0]}</text>')
+
+    svg = f"""
+    <svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}">
+        <rect width="100%" height="100%" fill="white"/>
+        <text x="{margin_left}" y="30" font-size="18" font-family="Arial" font-weight="700">{title}</text>
+        {''.join(grid)}
+        <polyline fill="none" stroke="#1f77b4" stroke-width="3" points="{' '.join(actual_coords)}"/>
+        {''.join(lines_svg)}
+        <line x1="{margin_left}" y1="{height - margin_bottom}" x2="{width - margin_right}" y2="{height - margin_bottom}" stroke="#333"/>
+        <line x1="{margin_left}" y1="{margin_top}" x2="{margin_left}" y2="{height - margin_bottom}" stroke="#333"/>
+        {''.join(tick_labels)}
+        {''.join(legend_svg)}
+    </svg>
+    """
     path.write_text(svg, encoding="utf-8")
 
 
-def svg_bar_chart(path: Path, bars: list[tuple[str, float]], title: str, width: int = 900, height: int = 430) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    margin_left, margin_right, margin_top, margin_bottom = 86, 24, 52, 104
-    plot_w = width - margin_left - margin_right
-    plot_h = height - margin_top - margin_bottom
-    max_v = max(value for _, value in bars) or 1
-    bar_gap = 10
-    bar_w = (plot_w - bar_gap * (len(bars) - 1)) / len(bars)
-    rects = []
-    labels = []
-    for idx, (label, value) in enumerate(bars):
-        x = margin_left + idx * (bar_w + bar_gap)
-        h = (value / max_v) * plot_h
-        y = margin_top + plot_h - h
-        color = PALETTE[idx % len(PALETTE)]
-        rects.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{bar_w:.1f}" height="{h:.1f}" fill="{color}"/>')
-        labels.append(f'<text transform="translate({x + bar_w / 2:.1f},{height - 82}) rotate(-35)" text-anchor="end" font-size="11">{label}</text>')
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
-<rect width="100%" height="100%" fill="#ffffff"/>
-<text x="{margin_left}" y="30" font-size="20" font-family="Arial" font-weight="700">{title}</text>
-<line x1="{margin_left}" y1="{height - margin_bottom}" x2="{width - margin_right}" y2="{height - margin_bottom}" stroke="#333"/>
-<line x1="{margin_left}" y1="{margin_top}" x2="{margin_left}" y2="{height - margin_bottom}" stroke="#333"/>
-<text x="{margin_left - 8}" y="{margin_top + 4}" text-anchor="end" font-size="11">${max_v:,.0f}</text>
-{''.join(rects)}
-{''.join(labels)}
-</svg>
-'''
-    path.write_text(svg, encoding="utf-8")
+def svg_bar_chart(
+    path: Path,
+    data: list[tuple[str, float]],
+    title: str = "",
+    width: int = 1000,
+    height: int = 500,
+) -> None:
+    if not data:
+        return
 
+    # ჩარჩოსა და ველების (Padding) განსაზღვრა
+    padding_top = 60
+    padding_bottom = 80
+    padding_left = 100
+    padding_right = 50
 
-def png_bar_chart(path: Path, bars: list[tuple[str, float]], width: int = 900, height: int = 520) -> None:
-    """Write a simple RGB PNG bar chart without third-party dependencies."""
-    path.parent.mkdir(parents=True, exist_ok=True)
-    canvas = bytearray([255, 255, 255] * width * height)
+    chart_width = width - padding_left - padding_right
+    chart_height = height - padding_top - padding_bottom
 
-    def pixel(x: int, y: int, color: tuple[int, int, int]) -> None:
-        if 0 <= x < width and 0 <= y < height:
-            offset = (y * width + x) * 3
-            canvas[offset : offset + 3] = bytes(color)
+    max_val = max(val for _, val in data) if data else 1.0
+    if max_val == 0:
+        max_val = 1.0
 
-    def rect(x0: int, y0: int, x1: int, y1: int, color: tuple[int, int, int]) -> None:
-        for y in range(max(0, y0), min(height, y1)):
-            row_offset = (y * width) * 3
-            for x in range(max(0, x0), min(width, x1)):
-                offset = row_offset + x * 3
-                canvas[offset : offset + 3] = bytes(color)
+    # SVG ფაილის დაწყება
+    svg = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" style="background:#fff; font-family:sans-serif;">'
+    ]
 
-    def line(x0: int, y0: int, x1: int, y1: int, color: tuple[int, int, int]) -> None:
-        dx = abs(x1 - x0)
-        dy = -abs(y1 - y0)
-        sx = 1 if x0 < x1 else -1
-        sy = 1 if y0 < y1 else -1
-        err = dx + dy
-        x, y = x0, y0
-        while True:
-            pixel(x, y, color)
-            if x == x1 and y == y1:
-                break
-            e2 = 2 * err
-            if e2 >= dy:
-                err += dy
-                x += sx
-            if e2 <= dx:
-                err += dx
-                y += sy
+    # სათაურის დამატება
+    if title:
+        svg.append(f'<text x="{width // 2}" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">{title}</text>')
 
-    left, right, top, bottom = 90, 40, 60, 90
-    plot_w = width - left - right
-    plot_h = height - top - bottom
-    axis = (40, 40, 40)
-    grid = (225, 225, 225)
-    for i in range(6):
-        y = top + int(i * plot_h / 5)
-        line(left, y, width - right, y, grid)
-    line(left, top, left, height - bottom, axis)
-    line(left, height - bottom, width - right, height - bottom, axis)
+    # Y ღერძის ბადე (Grid Lines) და თიქები
+    grid_lines = 5
+    for i in range(grid_lines + 1):
+        val = (max_val / grid_lines) * i
+        y = height - padding_bottom - (chart_height / grid_lines) * i
+        svg.append(f'<line x1="{padding_left}" y1="{y}" x2="{width - padding_right}" y2="{y}" stroke="#e0e0e0" stroke-width="1"/>')
+        svg.append(f'<text x="{padding_left - 10}" y="{y + 4}" text-anchor="end" font-size="12" fill="#666">${val:,.0f}</text>')
 
-    max_value = max([value for _, value in bars] or [1.0])
-    bar_count = max(1, len(bars))
-    gap = 34
-    bar_w = max(24, int((plot_w - gap * (bar_count + 1)) / bar_count))
-    colors = [(31, 119, 180), (44, 160, 44), (255, 127, 14), (148, 103, 189), (214, 39, 40)]
-    for idx, (_, value) in enumerate(bars):
-        x0 = left + gap + idx * (bar_w + gap)
-        h = int((value / max_value) * (plot_h - 8)) if max_value else 0
-        y0 = height - bottom - h
-        rect(x0, y0, x0 + bar_w, height - bottom, colors[idx % len(colors)])
-        rect(x0, y0, x0 + bar_w, y0 + 4, (20, 20, 20))
+    # სვეტების (Bars) გამოთვლა და დახატვა
+    num_bars = len(data)
+    bar_gap_ratio = 0.3  # დაშორება სვეტებს შორის
+    total_bar_width = chart_width / num_bars
+    bar_width = total_bar_width * (1 - bar_gap_ratio)
+    gap_width = total_bar_width * bar_gap_ratio
 
-    # A small color key in the upper-left makes the image recognizable even without text rendering.
-    for idx, _ in enumerate(bars):
-        rect(24, 22 + idx * 18, 42, 34 + idx * 18, colors[idx % len(colors)])
+    # ფერების პალიტრა სვეტებისთვის
+    colors = ["#3182bd", "#6baed6", "#9ecae1", "#c6dbef", "#e6550d", "#fd8d3c", "#fdae6b", "#fdd0a2", "#31a354", "#74c476"]
 
-    raw = b"".join(b"\x00" + canvas[y * width * 3 : (y + 1) * width * 3] for y in range(height))
+    for idx, (label, val) in enumerate(data):
+        x = padding_left + idx * total_bar_width + gap_width / 2
+        bar_h = (val / max_val) * chart_height
+        y = height - padding_bottom - bar_h
+        color = colors[idx % len(colors)]
 
-    def chunk(kind: bytes, data: bytes) -> bytes:
-        return struct.pack(">I", len(data)) + kind + data + struct.pack(">I", zlib.crc32(kind + data) & 0xFFFFFFFF)
+        # სვეტის დახატვა
+        svg.append(f'<rect x="{x}" y="{y}" width="{bar_width}" height="{bar_h}" fill="{color}" rx="3"/>')
 
-    png = (
-        b"\x89PNG\r\n\x1a\n"
-        + chunk(b"IHDR", struct.pack(">IIBBBBB", width, height, 8, 2, 0, 0, 0))
-        + chunk(b"IDAT", zlib.compress(raw, 9))
-        + chunk(b"IEND", b"")
-    )
-    path.write_bytes(png)
+        # მნიშვნელობის დაწერა სვეტის თავზე
+        if bar_h > 20:
+            svg.append(f'<text x="{x + bar_width / 2}" y="{y - 5}" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">${val:,.0f}</text>')
+
+        # კატეგორიის სახელის (X წარწერის) დახატვა დახრილად, რომ ტექსტები ერთმანეთს არ გადაედოს
+        svg.append(
+            f'<text x="{x + bar_width / 2}" y="{height - padding_bottom + 20}" '
+            f'text-anchor="end" font-size="11" fill="#444" '
+            f'transform="rotate(-25, {x + bar_width / 2}, {height - padding_bottom + 20})">{label}</text>'
+        )
+
+    # მთავარი ღერძების ხაზები
+    svg.append(f'<line x1="{padding_left}" y1="{height - padding_bottom}" x2="{width - padding_right}" y2="{height - padding_bottom}" stroke="#888" stroke-width="2"/>')
+    svg.append(f'<line x1="{padding_left}" y1="{padding_top}" x2="{padding_left}" y2="{height - padding_bottom}" stroke="#888" stroke-width="2"/>')
+
+    svg.append("</svg>")
+
+    # ფაილში ჩაწერა
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("\n".join(svg))
 
 def svg_scatter_chart(
             path: Path,

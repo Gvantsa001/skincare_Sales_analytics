@@ -3,7 +3,7 @@ from __future__ import annotations
 import math
 from datetime import date
 
-from .charts import png_bar_chart, svg_line_chart
+from .charts import svg_bar_chart, svg_line_chart
 from .config import FIGURES_DIR, PROCESSED_DIR, TABLES_DIR, ensure_directories
 from .io_utils import as_float, money, read_csv, write_csv
 
@@ -237,16 +237,47 @@ def run_forecasting() -> dict[str, int]:
     write_csv(PROCESSED_DIR / "forecast_predictions.csv", prediction_rows, ["month_start", "actual_sales", *forecast_columns])
     write_csv(PROCESSED_DIR / "future_forecast.csv", future_rows, ["month_start", "model_name", "forecast_sales", "notes"])
 
-    png_bar_chart(
-        FIGURES_DIR / "model_comparison_chart.png",
+    svg_bar_chart(
+        FIGURES_DIR / "model_comparison_chart.svg",
         [(row["model_name"], as_float(row["rmse"])) for row in available_metrics],
+        title="Model Comparison: RMSE Metrics",
     )
+    model_column = {
+        "Seasonal Naive": "seasonal_naive",
+        "ARIMA": "arima",
+        "Holt-Winters Exponential Smoothing": "holt_winters_exponential_smoothing",
+        "Prophet": "prophet",
+    }[best_model]
+
+    actual_points = [
+        (row["month_start"], as_float(row["actual_sales"]))
+        for row in prediction_rows
+    ]
+
+    models_forecasts = {}
+    model_mapping = {
+        "Seasonal Naive": "seasonal_naive",
+        "ARIMA": "arima",
+        "Holt-Winters": "holt_winters_exponential_smoothing",
+        "Prophet": "prophet"
+    }
+
+    for display_name, col_name in model_mapping.items():
+        if any(row.get(col_name) for row in prediction_rows):
+            models_forecasts[display_name] = [
+                (row["month_start"], as_float(row[col_name]) if row.get(col_name) else None)
+                for row in prediction_rows
+            ]
+
     svg_line_chart(
         FIGURES_DIR / "monthly_sales_forecast_test_actuals.svg",
-        [(row["month_start"], as_float(row["actual_sales"])) for row in prediction_rows],
-        f"Monthly Forecast Test Actuals, Best Model: {best_model}",
-        width=900,
+        actual_points,
+        models_forecasts,
+        "Model Comparison: Actual vs Forecasts (Test Period)",
+        width=1100,
+        height=450,
     )
+
     (TABLES_DIR / "model_run_notes.md").write_text(
         "# Forecast Model Notes\n\n"
         f"- Classical forecasting grain: monthly sales.\n"

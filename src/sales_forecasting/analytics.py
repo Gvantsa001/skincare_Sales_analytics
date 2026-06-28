@@ -473,20 +473,21 @@ def run_analytics() -> dict[str, int]:
     svg_line_chart(
         FIGURES_DIR / "daily_total_sales.svg",
         [(row["date"], as_float(row["total_sales"])) for row in daily],
+        {},
         "Daily Total Sales, 2023-2025",
     )
 
     svg_bar_chart(
         FIGURES_DIR / "monthly_total_sales.svg",
         [(row["month_start"], as_float(row["total_sales"])) for row in monthly],
-        "Monthly Total Sales",
+        title="Monthly Total Sales",
         width=1200,
     )
 
     svg_bar_chart(
         FIGURES_DIR / "category_total_sales.svg",
         [(row["category"], as_float(row["total_sales"])) for row in category_rows],
-        "Total Sales by Category",
+        title="Total Sales by Product Category"
     )
 
     svg_scatter_chart(

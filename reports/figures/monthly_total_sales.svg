@@ -1,9 +1,125 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
-<rect width="100%" height="100%" fill="#ffffff"/>
-<text x="86" y="30" font-size="20" font-family="Arial" font-weight="700">Monthly Total Sales</text>
-<line x1="86" y1="326" x2="1176" y2="326" stroke="#333"/>
-<line x1="86" y1="52" x2="86" y2="326" stroke="#333"/>
-<text x="78" y="56" text-anchor="end" font-size="11">$722,168</text>
-<rect x="86.0" y="211.9" width="20.6" height="114.1" fill="#1f77b4"/><rect x="116.6" y="231.2" width="20.6" height="94.8" fill="#2ca02c"/><rect x="147.1" y="215.5" width="20.6" height="110.5" fill="#ff7f0e"/><rect x="177.7" y="240.1" width="20.6" height="85.9" fill="#9467bd"/><rect x="208.2" y="212.7" width="20.6" height="113.3" fill="#17becf"/><rect x="238.8" y="196.9" width="20.6" height="129.1" fill="#8c564b"/><rect x="269.3" y="206.1" width="20.6" height="119.9" fill="#d62728"/><rect x="299.9" y="223.8" width="20.6" height="102.2" fill="#1f77b4"/><rect x="330.4" y="218.4" width="20.6" height="107.6" fill="#2ca02c"/><rect x="361.0" y="226.6" width="20.6" height="99.4" fill="#ff7f0e"/><rect x="391.6" y="109.1" width="20.6" height="216.9" fill="#9467bd"/><rect x="422.1" y="130.2" width="20.6" height="195.8" fill="#17becf"/><rect x="452.7" y="178.2" width="20.6" height="147.8" fill="#8c564b"/><rect x="483.2" y="210.0" width="20.6" height="116.0" fill="#d62728"/><rect x="513.8" y="192.0" width="20.6" height="134.0" fill="#1f77b4"/><rect x="544.3" y="222.5" width="20.6" height="103.5" fill="#2ca02c"/><rect x="574.9" y="184.2" width="20.6" height="141.8" fill="#ff7f0e"/><rect x="605.4" y="171.1" width="20.6" height="154.9" fill="#9467bd"/><rect x="636.0" y="181.7" width="20.6" height="144.3" fill="#17becf"/><rect x="666.6" y="208.8" width="20.6" height="117.2" fill="#8c564b"/><rect x="697.1" y="209.4" width="20.6" height="116.6" fill="#d62728"/><rect x="727.7" y="208.1" width="20.6" height="117.9" fill="#1f77b4"/><rect x="758.2" y="78.0" width="20.6" height="248.0" fill="#2ca02c"/><rect x="788.8" y="89.1" width="20.6" height="236.9" fill="#ff7f0e"/><rect x="819.3" y="159.6" width="20.6" height="166.4" fill="#9467bd"/><rect x="849.9" y="205.5" width="20.6" height="120.5" fill="#17becf"/><rect x="880.4" y="185.6" width="20.6" height="140.4" fill="#8c564b"/><rect x="911.0" y="209.7" width="20.6" height="116.3" fill="#d62728"/><rect x="941.6" y="168.8" width="20.6" height="157.2" fill="#1f77b4"/><rect x="972.1" y="158.5" width="20.6" height="167.5" fill="#2ca02c"/><rect x="1002.7" y="170.2" width="20.6" height="155.8" fill="#ff7f0e"/><rect x="1033.2" y="191.9" width="20.6" height="134.1" fill="#9467bd"/><rect x="1063.8" y="193.9" width="20.6" height="132.1" fill="#17becf"/><rect x="1094.3" y="187.9" width="20.6" height="138.1" fill="#8c564b"/><rect x="1124.9" y="52.0" width="20.6" height="274.0" fill="#d62728"/><rect x="1155.4" y="72.7" width="20.6" height="253.3" fill="#1f77b4"/>
-<text transform="translate(96.3,348) rotate(-35)" text-anchor="end" font-size="11">2023-01-01</text><text transform="translate(126.8,348) rotate(-35)" text-anchor="end" font-size="11">2023-02-01</text><text transform="translate(157.4,348) rotate(-35)" text-anchor="end" font-size="11">2023-03-01</text><text transform="translate(187.9,348) rotate(-35)" text-anchor="end" font-size="11">2023-04-01</text><text transform="translate(218.5,348) rotate(-35)" text-anchor="end" font-size="11">2023-05-01</text><text transform="translate(249.1,348) rotate(-35)" text-anchor="end" font-size="11">2023-06-01</text><text transform="translate(279.6,348) rotate(-35)" text-anchor="end" font-size="11">2023-07-01</text><text transform="translate(310.2,348) rotate(-35)" text-anchor="end" font-size="11">2023-08-01</text><text transform="translate(340.7,348) rotate(-35)" text-anchor="end" font-size="11">2023-09-01</text><text transform="translate(371.3,348) rotate(-35)" text-anchor="end" font-size="11">2023-10-01</text><text transform="translate(401.8,348) rotate(-35)" text-anchor="end" font-size="11">2023-11-01</text><text transform="translate(432.4,348) rotate(-35)" text-anchor="end" font-size="11">2023-12-01</text><text transform="translate(462.9,348) rotate(-35)" text-anchor="end" font-size="11">2024-01-01</text><text transform="translate(493.5,348) rotate(-35)" text-anchor="end" font-size="11">2024-02-01</text><text transform="translate(524.1,348) rotate(-35)" text-anchor="end" font-size="11">2024-03-01</text><text transform="translate(554.6,348) rotate(-35)" text-anchor="end" font-size="11">2024-04-01</text><text transform="translate(585.2,348) rotate(-35)" text-anchor="end" font-size="11">2024-05-01</text><text transform="translate(615.7,348) rotate(-35)" text-anchor="end" font-size="11">2024-06-01</text><text transform="translate(646.3,348) rotate(-35)" text-anchor="end" font-size="11">2024-07-01</text><text transform="translate(676.8,348) rotate(-35)" text-anchor="end" font-size="11">2024-08-01</text><text transform="translate(707.4,348) rotate(-35)" text-anchor="end" font-size="11">2024-09-01</text><text transform="translate(737.9,348) rotate(-35)" text-anchor="end" font-size="11">2024-10-01</text><text transform="translate(768.5,348) rotate(-35)" text-anchor="end" font-size="11">2024-11-01</text><text transform="translate(799.1,348) rotate(-35)" text-anchor="end" font-size="11">2024-12-01</text><text transform="translate(829.6,348) rotate(-35)" text-anchor="end" font-size="11">2025-01-01</text><text transform="translate(860.2,348) rotate(-35)" text-anchor="end" font-size="11">2025-02-01</text><text transform="translate(890.7,348) rotate(-35)" text-anchor="end" font-size="11">2025-03-01</text><text transform="translate(921.3,348) rotate(-35)" text-anchor="end" font-size="11">2025-04-01</text><text transform="translate(951.8,348) rotate(-35)" text-anchor="end" font-size="11">2025-05-01</text><text transform="translate(982.4,348) rotate(-35)" text-anchor="end" font-size="11">2025-06-01</text><text transform="translate(1012.9,348) rotate(-35)" text-anchor="end" font-size="11">2025-07-01</text><text transform="translate(1043.5,348) rotate(-35)" text-anchor="end" font-size="11">2025-08-01</text><text transform="translate(1074.1,348) rotate(-35)" text-anchor="end" font-size="11">2025-09-01</text><text transform="translate(1104.6,348) rotate(-35)" text-anchor="end" font-size="11">2025-10-01</text><text transform="translate(1135.2,348) rotate(-35)" text-anchor="end" font-size="11">2025-11-01</text><text transform="translate(1165.7,348) rotate(-35)" text-anchor="end" font-size="11">2025-12-01</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" style="background:#fff; font-family:sans-serif;">
+<text x="600" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">Monthly Total Sales</text>
+<line x1="100" y1="420.0" x2="1150" y2="420.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="90" y="424.0" text-anchor="end" font-size="12" fill="#666">$0</text>
+<line x1="100" y1="348.0" x2="1150" y2="348.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="90" y="352.0" text-anchor="end" font-size="12" fill="#666">$144,434</text>
+<line x1="100" y1="276.0" x2="1150" y2="276.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="90" y="280.0" text-anchor="end" font-size="12" fill="#666">$288,867</text>
+<line x1="100" y1="204.0" x2="1150" y2="204.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="90" y="208.0" text-anchor="end" font-size="12" fill="#666">$433,301</text>
+<line x1="100" y1="132.0" x2="1150" y2="132.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="90" y="136.0" text-anchor="end" font-size="12" fill="#666">$577,734</text>
+<line x1="100" y1="60.0" x2="1150" y2="60.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="90" y="64.0" text-anchor="end" font-size="12" fill="#666">$722,168</text>
+<rect x="104.375" y="270.0342082475413" width="20.416666666666668" height="149.9657917524587" fill="#3182bd" rx="3"/>
+<text x="114.58333333333333" y="265.0342082475413" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$300,835</text>
+<text x="114.58333333333333" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 114.58333333333333, 440)">2023-01-01</text>
+<rect x="133.54166666666666" y="295.4094074653964" width="20.416666666666668" height="124.59059253460363" fill="#6baed6" rx="3"/>
+<text x="143.75" y="290.4094074653964" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$249,931</text>
+<text x="143.75" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 143.75, 440)">2023-02-01</text>
+<rect x="162.70833333333334" y="274.8698080550376" width="20.416666666666668" height="145.1301919449624" fill="#9ecae1" rx="3"/>
+<text x="172.91666666666669" y="269.8698080550376" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$291,134</text>
+<text x="172.91666666666669" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 172.91666666666669, 440)">2023-03-01</text>
+<rect x="191.875" y="307.18671550018246" width="20.416666666666668" height="112.81328449981754" fill="#c6dbef" rx="3"/>
+<text x="202.08333333333334" y="302.18671550018246" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$226,306</text>
+<text x="202.08333333333334" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 202.08333333333334, 440)">2023-04-01</text>
+<rect x="221.04166666666669" y="271.077362267323" width="20.416666666666668" height="148.922637732677" fill="#e6550d" rx="3"/>
+<text x="231.25000000000003" y="266.077362267323" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$298,742</text>
+<text x="231.25000000000003" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 231.25000000000003, 440)">2023-05-01</text>
+<rect x="250.20833333333334" y="250.3432934125642" width="20.416666666666668" height="169.6567065874358" fill="#fd8d3c" rx="3"/>
+<text x="260.4166666666667" y="245.3432934125642" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$340,335</text>
+<text x="260.4166666666667" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 260.4166666666667, 440)">2023-06-01</text>
+<rect x="279.375" y="262.40420749771573" width="20.416666666666668" height="157.59579250228427" fill="#fdae6b" rx="3"/>
+<text x="289.5833333333333" y="257.40420749771573" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$316,141</text>
+<text x="289.5833333333333" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 289.5833333333333, 440)">2023-07-01</text>
+<rect x="308.5416666666667" y="285.74122376934616" width="20.416666666666668" height="134.25877623065384" fill="#fdd0a2" rx="3"/>
+<text x="318.75" y="280.74122376934616" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$269,326</text>
+<text x="318.75" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 318.75, 440)">2023-08-01</text>
+<rect x="337.70833333333337" y="278.5863324452435" width="20.416666666666668" height="141.4136675547565" fill="#31a354" rx="3"/>
+<text x="347.9166666666667" y="273.5863324452435" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$283,679</text>
+<text x="347.9166666666667" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 347.9166666666667, 440)">2023-09-01</text>
+<rect x="366.875" y="289.37100933377064" width="20.416666666666668" height="130.62899066622938" fill="#74c476" rx="3"/>
+<text x="377.0833333333333" y="284.37100933377064" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$262,045</text>
+<text x="377.0833333333333" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 377.0833333333333, 440)">2023-10-01</text>
+<rect x="396.0416666666667" y="134.98193128066674" width="20.416666666666668" height="285.01806871933326" fill="#3182bd" rx="3"/>
+<text x="406.25" y="129.98193128066674" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$571,753</text>
+<text x="406.25" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 406.25, 440)">2023-11-01</text>
+<rect x="425.20833333333337" y="162.80664989356006" width="20.416666666666668" height="257.19335010643994" fill="#6baed6" rx="3"/>
+<text x="435.4166666666667" y="157.80664989356006" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$515,936</text>
+<text x="435.4166666666667" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 435.4166666666667, 440)">2023-12-01</text>
+<rect x="454.375" y="225.86022295783133" width="20.416666666666668" height="194.13977704216867" fill="#9ecae1" rx="3"/>
+<text x="464.5833333333333" y="220.86022295783133" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$389,449</text>
+<text x="464.5833333333333" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 464.5833333333333, 440)">2024-01-01</text>
+<rect x="483.5416666666667" y="267.6520260972534" width="20.416666666666668" height="152.34797390274662" fill="#c6dbef" rx="3"/>
+<text x="493.75" y="262.6520260972534" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$305,613</text>
+<text x="493.75" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 493.75, 440)">2024-02-01</text>
+<rect x="512.7083333333334" y="243.94083149217573" width="20.416666666666668" height="176.05916850782427" fill="#e6550d" rx="3"/>
+<text x="522.9166666666667" y="238.94083149217573" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$353,179</text>
+<text x="522.9166666666667" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 522.9166666666667, 440)">2024-03-01</text>
+<rect x="541.875" y="284.0483959444614" width="20.416666666666668" height="135.9516040555386" fill="#fd8d3c" rx="3"/>
+<text x="552.0833333333334" y="279.0483959444614" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$272,722</text>
+<text x="552.0833333333334" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 552.0833333333334, 440)">2024-04-01</text>
+<rect x="571.0416666666667" y="233.66567043026484" width="20.416666666666668" height="186.33432956973516" fill="#fdae6b" rx="3"/>
+<text x="581.2500000000001" y="228.66567043026484" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$373,791</text>
+<text x="581.2500000000001" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 581.2500000000001, 440)">2024-05-01</text>
+<rect x="600.2083333333334" y="216.46484283884377" width="20.416666666666668" height="203.53515716115623" fill="#fdd0a2" rx="3"/>
+<text x="610.4166666666667" y="211.46484283884377" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$408,296</text>
+<text x="610.4166666666667" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 610.4166666666667, 440)">2024-06-01</text>
+<rect x="629.375" y="230.41736122462922" width="20.416666666666668" height="189.58263877537078" fill="#31a354" rx="3"/>
+<text x="639.5833333333334" y="225.41736122462922" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$380,307</text>
+<text x="639.5833333333334" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 639.5833333333334, 440)">2024-07-01</text>
+<rect x="658.5416666666667" y="265.9950602903383" width="20.416666666666668" height="154.00493970966173" fill="#74c476" rx="3"/>
+<text x="668.7500000000001" y="260.9950602903383" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$308,937</text>
+<text x="668.7500000000001" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 668.7500000000001, 440)">2024-08-01</text>
+<rect x="687.7083333333334" y="266.75622339651045" width="20.416666666666668" height="153.24377660348958" fill="#3182bd" rx="3"/>
+<text x="697.9166666666667" y="261.75622339651045" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$307,410</text>
+<text x="697.9166666666667" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 697.9166666666667, 440)">2024-09-01</text>
+<rect x="716.875" y="265.115658206654" width="20.416666666666668" height="154.88434179334598" fill="#6baed6" rx="3"/>
+<text x="727.0833333333334" y="260.115658206654" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$310,701</text>
+<text x="727.0833333333334" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 727.0833333333334, 440)">2024-10-01</text>
+<rect x="746.0416666666667" y="94.15009763310599" width="20.416666666666668" height="325.849902366894" fill="#9ecae1" rx="3"/>
+<text x="756.2500000000001" y="89.15009763310599" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$653,662</text>
+<text x="756.2500000000001" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 756.2500000000001, 440)">2024-11-01</text>
+<rect x="775.2083333333334" y="108.6853164835133" width="20.416666666666668" height="311.3146835164867" fill="#c6dbef" rx="3"/>
+<text x="785.4166666666667" y="103.6853164835133" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$624,504</text>
+<text x="785.4166666666667" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 785.4166666666667, 440)">2024-12-01</text>
+<rect x="804.375" y="201.37155934433258" width="20.416666666666668" height="218.62844065566742" fill="#e6550d" rx="3"/>
+<text x="814.5833333333334" y="196.37155934433258" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$438,573</text>
+<text x="814.5833333333334" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 814.5833333333334, 440)">2025-01-01</text>
+<rect x="833.5416666666667" y="261.67240598256956" width="20.416666666666668" height="158.32759401743044" fill="#fd8d3c" rx="3"/>
+<text x="843.7500000000001" y="256.67240598256956" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$317,609</text>
+<text x="843.7500000000001" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 843.7500000000001, 440)">2025-02-01</text>
+<rect x="862.7083333333334" y="235.49459346679677" width="20.416666666666668" height="184.50540653320323" fill="#fdae6b" rx="3"/>
+<text x="872.9166666666667" y="230.49459346679677" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$370,122</text>
+<text x="872.9166666666667" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 872.9166666666667, 440)">2025-03-01</text>
+<rect x="891.875" y="267.2468510960643" width="20.416666666666668" height="152.7531489039357" fill="#fdd0a2" rx="3"/>
+<text x="902.0833333333334" y="262.2468510960643" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$306,426</text>
+<text x="902.0833333333334" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 902.0833333333334, 440)">2025-04-01</text>
+<rect x="921.0416666666667" y="213.41884446685845" width="20.416666666666668" height="206.58115553314155" fill="#31a354" rx="3"/>
+<text x="931.2500000000001" y="208.41884446685845" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$414,406</text>
+<text x="931.2500000000001" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 931.2500000000001, 440)">2025-05-01</text>
+<rect x="950.2083333333334" y="199.9692019010259" width="20.416666666666668" height="220.0307980989741" fill="#74c476" rx="3"/>
+<text x="960.4166666666667" y="194.9692019010259" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$441,387</text>
+<text x="960.4166666666667" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 960.4166666666667, 440)">2025-06-01</text>
+<rect x="979.375" y="215.35970046856826" width="20.416666666666668" height="204.64029953143174" fill="#3182bd" rx="3"/>
+<text x="989.5833333333334" y="210.35970046856826" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$410,513</text>
+<text x="989.5833333333334" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 989.5833333333334, 440)">2025-07-01</text>
+<rect x="1008.5416666666667" y="243.87206854028898" width="20.416666666666668" height="176.12793145971102" fill="#6baed6" rx="3"/>
+<text x="1018.7500000000001" y="238.87206854028898" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$353,317</text>
+<text x="1018.7500000000001" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 1018.7500000000001, 440)">2025-08-01</text>
+<rect x="1037.7083333333335" y="246.39837672109374" width="20.416666666666668" height="173.60162327890626" fill="#9ecae1" rx="3"/>
+<text x="1047.9166666666667" y="241.39837672109374" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$348,249</text>
+<text x="1047.9166666666667" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 1047.9166666666667, 440)">2025-09-01</text>
+<rect x="1066.875" y="238.5468779111563" width="20.416666666666668" height="181.4531220888437" fill="#c6dbef" rx="3"/>
+<text x="1077.0833333333333" y="233.5468779111563" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$363,999</text>
+<text x="1077.0833333333333" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 1077.0833333333333, 440)">2025-10-01</text>
+<rect x="1096.0416666666667" y="60.0" width="20.416666666666668" height="360.0" fill="#e6550d" rx="3"/>
+<text x="1106.25" y="55.0" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$722,168</text>
+<text x="1106.25" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 1106.25, 440)">2025-11-01</text>
+<rect x="1125.2083333333335" y="87.21784094683238" width="20.416666666666668" height="332.7821590531676" fill="#fd8d3c" rx="3"/>
+<text x="1135.4166666666667" y="82.21784094683238" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$667,568</text>
+<text x="1135.4166666666667" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 1135.4166666666667, 440)">2025-12-01</text>
+<line x1="100" y1="420" x2="1150" y2="420" stroke="#888" stroke-width="2"/>
+<line x1="100" y1="60" x2="100" y2="420" stroke="#888" stroke-width="2"/>
 </svg>

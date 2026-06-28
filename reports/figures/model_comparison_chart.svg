@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" style="background:#fff; font-family:sans-serif;">
+<text x="500" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">Model Comparison: RMSE Metrics</text>
+<line x1="100" y1="420.0" x2="950" y2="420.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="90" y="424.0" text-anchor="end" font-size="12" fill="#666">$0</text>
+<line x1="100" y1="348.0" x2="950" y2="348.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="90" y="352.0" text-anchor="end" font-size="12" fill="#666">$32,041</text>
+<line x1="100" y1="276.0" x2="950" y2="276.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="90" y="280.0" text-anchor="end" font-size="12" fill="#666">$64,082</text>
+<line x1="100" y1="204.0" x2="950" y2="204.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="90" y="208.0" text-anchor="end" font-size="12" fill="#666">$96,123</text>
+<line x1="100" y1="132.0" x2="950" y2="132.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="90" y="136.0" text-anchor="end" font-size="12" fill="#666">$128,164</text>
+<line x1="100" y1="60.0" x2="950" y2="60.0" stroke="#e0e0e0" stroke-width="1"/>
+<text x="90" y="64.0" text-anchor="end" font-size="12" fill="#666">$160,205</text>
+<rect x="142.5" y="311.69478928215653" width="198.33333333333331" height="108.30521071784344" fill="#3182bd" rx="3"/>
+<text x="241.66666666666666" y="306.69478928215653" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$48,197</text>
+<text x="241.66666666666666" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 241.66666666666666, 440)">Seasonal Naive</text>
+<rect x="425.8333333333333" y="60.0" width="198.33333333333331" height="360.0" fill="#6baed6" rx="3"/>
+<text x="525.0" y="55.0" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$160,205</text>
+<text x="525.0" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 525.0, 440)">ARIMA</text>
+<rect x="709.1666666666666" y="355.2682410204576" width="198.33333333333331" height="64.7317589795424" fill="#9ecae1" rx="3"/>
+<text x="808.3333333333333" y="350.2682410204576" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">$28,807</text>
+<text x="808.3333333333333" y="440" text-anchor="end" font-size="11" fill="#444" transform="rotate(-25, 808.3333333333333, 440)">Holt-Winters Exponential Smoothing</text>
+<line x1="100" y1="420" x2="950" y2="420" stroke="#888" stroke-width="2"/>
+<line x1="100" y1="60" x2="100" y2="420" stroke="#888" stroke-width="2"/>
+</svg>

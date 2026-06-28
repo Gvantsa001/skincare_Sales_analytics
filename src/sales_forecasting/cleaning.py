@@ -455,6 +455,7 @@ def clean_and_process() -> dict[str, int]:
         "Product_Features": write_csv(PROCESSED_DIR / "Product_Features.csv", product_rows, product_fields),
         "Sales_Transactions": write_csv(PROCESSED_DIR / "Sales_Transactions.csv", sales_transactions, transaction_fields),
     }
+
     # Compatibility copies for earlier scripts or exploratory notebooks.
     write_csv(PROCESSED_DIR / "daily_sales.csv", daily_rows, daily_fields)
     write_csv(PROCESSED_DIR / "monthly_sales_features.csv", monthly_rows, monthly_fields)
